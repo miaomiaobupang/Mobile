@@ -1,0 +1,600 @@
+[ 2018-06-26T09:29:06+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+
+[ 2018-06-26T09:30:42+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+
+[ 2018-06-26T09:30:48+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+
+[ 2018-06-26T09:31:30+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+
+[ 2018-06-26T09:47:32+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+
+[ 2018-06-26T09:48:46+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+
+[ 2018-06-26T09:52:11+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+
+[ 2018-06-26T09:52:27+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+
+[ 2018-06-26T09:57:50+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+
+[ 2018-06-26T10:01:23+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+
+[ 2018-06-26T10:01:31+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+
+[ 2018-06-26T10:06:31+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+
+[ 2018-06-26T10:07:14+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+
+[ 2018-06-26T10:08:00+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+
+[ 2018-06-26T10:10:02+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+
+[ 2018-06-26T10:10:16+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+
+[ 2018-06-26T10:10:23+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+
+[ 2018-06-26T10:13:25+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+
+[ 2018-06-26T10:13:50+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+
+[ 2018-06-26T10:14:09+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+
+[ 2018-06-26T10:15:00+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+
+[ 2018-06-26T10:17:07+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+
+[ 2018-06-26T10:17:49+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+
+[ 2018-06-26T10:17:54+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+
+[ 2018-06-26T10:18:04+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+
+[ 2018-06-26T10:18:23+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+
+[ 2018-06-26T10:19:14+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+
+[ 2018-06-26T10:19:28+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+
+[ 2018-06-26T10:19:31+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+
+[ 2018-06-26T10:23:08+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+
+[ 2018-06-26T10:23:14+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+
+[ 2018-06-26T10:26:22+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+
+[ 2018-06-26T10:27:19+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+
+[ 2018-06-26T10:29:25+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+
+[ 2018-06-26T10:31:21+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+
+[ 2018-06-26T10:31:31+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+
+[ 2018-06-26T10:31:33+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+
+[ 2018-06-26T10:31:43+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+
+[ 2018-06-26T10:31:51+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2018-06-26T10:33:51+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+
+[ 2018-06-26T10:34:04+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+
+[ 2018-06-26T10:37:41+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+
+[ 2018-06-26T10:38:12+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+
+[ 2018-06-26T10:38:56+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+
+[ 2018-06-26T10:40:14+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+
+[ 2018-06-26T10:40:27+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+
+[ 2018-06-26T10:40:38+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+
+[ 2018-06-26T10:40:46+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+
+[ 2018-06-26T10:40:52+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+
+[ 2018-06-26T10:41:36+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+
+[ 2018-06-26T10:41:54+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+
+[ 2018-06-26T10:42:09+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+
+[ 2018-06-26T10:42:23+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+
+[ 2018-06-26T10:42:37+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+
+[ 2018-06-26T10:42:56+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+
+[ 2018-06-26T10:43:39+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+
+[ 2018-06-26T10:43:44+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+
+[ 2018-06-26T10:46:49+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+
+[ 2018-06-26T10:46:54+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+
+[ 2018-06-26T10:46:55+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+
+[ 2018-06-26T10:47:46+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+
+[ 2018-06-26T10:49:45+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+
+[ 2018-06-26T10:50:18+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+
+[ 2018-06-26T10:50:43+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+
+[ 2018-06-26T10:51:25+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+
+[ 2018-06-26T10:54:04+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+
+[ 2018-06-26T10:54:25+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+
+[ 2018-06-26T10:56:36+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+
+[ 2018-06-26T11:02:36+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+
+[ 2018-06-26T11:02:54+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+
+[ 2018-06-26T11:03:08+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+
+[ 2018-06-26T11:03:39+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+
+[ 2018-06-26T11:03:56+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+
+[ 2018-06-26T11:05:33+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+
+[ 2018-06-26T11:05:55+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+
+[ 2018-06-26T11:06:04+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+
+[ 2018-06-26T11:08:51+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+
+[ 2018-06-26T11:15:21+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+
+[ 2018-06-26T11:15:35+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+
+[ 2018-06-26T11:15:40+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+
+[ 2018-06-26T11:15:57+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+
+[ 2018-06-26T11:16:26+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+
+[ 2018-06-26T11:21:53+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+
+[ 2018-06-26T11:23:09+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+
+[ 2018-06-26T11:23:31+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+
+[ 2018-06-26T11:24:02+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+
+[ 2018-06-26T11:24:09+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+
+[ 2018-06-26T11:24:19+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+
+[ 2018-06-26T11:24:40+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+
+[ 2018-06-26T11:24:55+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+
+[ 2018-06-26T11:25:37+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+
+[ 2018-06-26T11:33:04+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+
+[ 2018-06-26T11:33:15+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+
+[ 2018-06-26T11:33:53+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+
+[ 2018-06-26T11:33:59+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+
+[ 2018-06-26T11:40:27+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+
+[ 2018-06-26T11:41:07+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+
+[ 2018-06-26T11:41:16+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+
+[ 2018-06-26T11:42:58+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+
+[ 2018-06-26T11:44:29+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+
+[ 2018-06-26T11:45:15+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+
+[ 2018-06-26T11:46:20+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+
+[ 2018-06-26T11:47:42+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+
+[ 2018-06-26T11:47:54+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+
+[ 2018-06-26T11:48:00+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+
+[ 2018-06-26T11:48:37+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2018-06-26T11:48:59+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+
+[ 2018-06-26T11:49:54+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+
+[ 2018-06-26T11:51:34+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2018-06-26T11:52:25+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+
+[ 2018-06-26T11:53:03+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+
+[ 2018-06-26T11:53:17+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+
+[ 2018-06-26T11:53:30+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+
+[ 2018-06-26T11:53:38+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+
+[ 2018-06-26T11:55:00+08:00 ] 192.168.1.21 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+
+[ 2018-06-26T11:55:02+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+
+[ 2018-06-26T11:55:49+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+
+[ 2018-06-26T11:57:25+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+
+[ 2018-06-26T11:57:39+08:00 ] 192.168.1.73 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+
+[ 2018-06-26T13:18:54+08:00 ] 192.168.1.79 /Hope-three/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+
