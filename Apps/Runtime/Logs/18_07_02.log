@@ -1,0 +1,12 @@
+[ 2018-07-02T11:25:22+08:00 ] 192.168.1.21 /Mobile-git/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011489s ]
+ERR: 没有定义数据库配置
+
+[ 2018-07-02T11:27:11+08:00 ] 192.168.1.21 /Mobile-git/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+ERR: 没有定义数据库配置
+
