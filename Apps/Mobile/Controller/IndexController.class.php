@@ -51,5 +51,9 @@ class IndexController extends Controller{
 	public function hospitalDetail(){
 		$this->display();
 	}
+	//疾病频道页
+	public function diseaseIndex(){
+		$this->display();
+	}
 	
 }

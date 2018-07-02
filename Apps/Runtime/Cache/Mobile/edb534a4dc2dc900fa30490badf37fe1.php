@@ -140,33 +140,71 @@
 			background:#f0f0f0;
 			position:absolute;
 		}
-		.BreadcrumbTrail{
+		.swiperBanners{
+			margin-top:14rem;
+		}
+		.autoBanner{
 			width:100%;
-			height:7rem;
-			background:#fff;
-			margin-top:12rem;
+			height:32rem;
 		}
-		.breadLeftImg{
-			width:12%;
-			float:left;
-			height:7rem;
-			line-height:7rem;
-			font-size:3.5rem;
-			color:#999;
-			text-align:center;
-			margin-left:2rem;
+		.bannerText{
+			width:100%;
+			height:8rem;
+			line-height:8rem;
+			position:absolute;
+			bottom:0;
+			padding:2rem 2rem;
+			background:rgba(0,0,0,0.4);
 		}
-		.breadLeftText{
-			width:85%;
-			height:7rem;
-			line-height:7rem;
-			float:left;
-			font-size:3.5rem;
-			color:#999;
-			text-align:left;
+		.bannerText1{
+			margin-top:-1.5rem;
+			font-size:4rem;
+			color:#fff;
 			overflow: hidden;
 			text-overflow:ellipsis;
 			white-space: nowrap;
+		}
+		.countryDepartment{
+			width:100%;
+			height:auto;
+			background:#fff;
+			padding:2rem 2rem;
+			margin-top:2rem;
+		}
+		.countryHead{
+			width:100%;
+			height:8rem;
+		}
+		.country{
+			width:33.333%;
+			height:8rem;
+			line-height:8rem;
+			font-size:4rem;
+			text-align:center;
+			float:left;
+			border:0.2rem solid #009FA8;
+			color:#333333;
+		}
+		.departments{
+			width:100%;
+			height:auto;
+		}
+		.department{
+			width:20%;
+			height:22rem;
+			float:left;
+		}
+		.departmentImg{
+			margin-top:4rem;
+			text-align:center;
+		}
+		.departmentTitle{
+			width:100%;
+			height:5rem;
+			line-height:5rem;
+			text-align:center;
+			margin-top:1rem;
+			font-size:3.5rem;
 		}
 		.doctorRecommend{
 			margin-top:2rem;
@@ -199,13 +237,12 @@
 			border-bottom:0.2rem solid rgba(220,220,220,1);
 		}
 		.MessagePreListLeft{
-			width:17%;
+			width:20%;
 			height:20rem;
 			float:left;
 		}
 		.MessagePreListRight{
-			width:77%;
-			margin-left:2rem;
+			width:78%;
 			height:20rem;
 			float:left;
 		}
@@ -249,10 +286,54 @@
 		}
 	</style>
 	<div class="mainBox">
-		<div class="BreadcrumbTrail">
-			<div class="breadLeftImg"><img src="/Mobile/Public/Mobile/image/20180627backtoindex.png"> 首页</div>
-			<div class="breadLeftText"> > 超级专家 > 日本肿瘤专家</div>
-		</div>
+		<div class="swiperBanners"> 
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<a href=""><img class="autoBanner" src="/Mobile/Public/Mobile/image/20180615banner1.jpg"></a>
+						<div class="bannerText">
+							<div class="bannerText1">5种食物竟然是防癌圣品</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<a href=""><img class="autoBanner" src="/Mobile/Public/Mobile/image/20180615banner2.jpg"></a>
+						<div class="bannerText">
+							<div class="bannerText1">5种食物竟然是防癌圣品</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<a href=""><img class="autoBanner" src="/Mobile/Public/Mobile/image/20180615banner3.jpg"></a>
+						<div class="bannerText">
+							<div class="bannerText1">5种食物竟然是防癌圣品</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> 
+		<div class="countryDepartment"> 
+			<div class="countryHead">
+				<div class="country" data-n='1'>中国</div>
+				<div class="country" data-n='2'>美国</div>
+				<div class="country" data-n='3'>日本</div>
+				<div class="cl"></div>
+			</div>
+			<div class="departments" data-n="1">
+				<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/expertList"><div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626zhongliuke.png"></div><div class="departmentTitle">肿瘤科</div></div></a>
+				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626shenjingwaike.png"></div><div class="departmentTitle">神经外科</div></div>
+				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180628wuguanke.png"></div><div class="departmentTitle">五官科</div></div>
+				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626yanke.png"></div><div class="departmentTitle">眼科</div></div>
+				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626shenjingneike.png"></div><div class="departmentTitle">神经内科</div></div>
+				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626ruxianke.png"></div><div class="departmentTitle">乳腺外科</div></div>
+				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626xiongwaike.png"></div><div class="departmentTitle">胸外科</div></div>
+				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626xiaohuake.png"></div><div class="departmentTitle">消化科</div></div>
+				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626yizhizhongxin.png"></div><div class="departmentTitle">移植中心</div></div>
+				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626fuke.png"></div><div class="departmentTitle">妇科</div></div>
+				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626miniaoke.png"></div><div class="departmentTitle">泌尿科</div></div>
+				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626shengzhi.png"></div><div class="departmentTitle">生殖科</div></div>
+				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626xinneike.png"></div><div class="departmentTitle">心内科</div></div>
+				<div class="cl"></div>
+			</div>
+		</div> 
 		<div class="doctorRecommend">
 			<div class="doctorRecommendOne">
 				<div class="doctorRecommendLine" style="margin-left:2rem;color:#009FA8;font-size:5rem;">最新专家</div>
@@ -260,16 +341,14 @@
 			</div>  
 			<div class="hospitalRecommendTwo" style="height:115rem;"> 
 				<div style="width:100%;height:2rem;"></div>
-				<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/expertDetail">
-					<div class="MessagePreList">
-						<div class="MessagePreListLeft"><img class="leftImgStyle" src="/Mobile/Public/Mobile/image/20180615banner2.jpg"></div>
-						<div class="MessagePreListRight">
-							<div class="MessagePreListRightU">幕内雅敏</div>
-							<div class="MessagePreListRightB">幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏</div>
-						</div>
-						<div class="cl"></div>
-					</div> 
-				</a> 
+				<div class="MessagePreList">
+					<div class="MessagePreListLeft"><img class="leftImgStyle" src="/Mobile/Public/Mobile/image/20180627muneiyaming.png"></div>
+					<div class="MessagePreListRight">
+						<div class="MessagePreListRightU">幕内雅敏</div>
+						<div class="MessagePreListRightB">幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏</div>
+					</div>
+					<div class="cl"></div>
+				</div> 
 				<div style="width:100%;height:2rem;"></div>
 				<div class="MessagePreList">
 					<div class="MessagePreListLeft"><img class="leftImgStyle" src="/Mobile/Public/Mobile/image/20180615banner3.jpg"></div>
@@ -316,10 +395,31 @@
 		</div> 
 	</div>
 	<script>
+		//轮播图
+		var mySwiper = new Swiper('.swiper-container',{
+				loop: true,
+				autoplay: 2500,
+				autoplayDisableOnInteraction : false,
+			});
+		//国家科室切换
+		$('.country').each(function(){
+			var n = $(this).data('n');
+			if(n==1){
+				$(this).css({'background':'#009FA8','color':'#fff'});
+			}
+		});
+		$('.country').click(function(){
+			var n = $(this).data('n');
+			//赋值
+			$('.departments').data('n',n);
+			//切换css
+			$('.country').css({'background':'#fff','color':'#333'});
+			$(this).css({'background':'#009FA8','color':'#fff'});
+		});
 		//动态改变导航栏信息
 		$('.oneNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180627reback.png">');
 		$('.oneNavDiv').data('n',2);
-		$('.twoNavDiv').html('日本肿瘤专家');
+		$('.twoNavDiv').html('疾病库');
 	</script> 
 	<div class="mobilePublicFot">
 		<div class="fotDiv fotDivBorder fotDivBorderNav" data-n="1">

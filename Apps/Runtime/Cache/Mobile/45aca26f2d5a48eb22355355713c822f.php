@@ -121,16 +121,16 @@
 	</style>
 </head>
 	<div class="mobilePublicNav">
-		<div class="navDiv oneNavDiv" data-n="1"><img src="/Hope-three/Public/Mobile/image/20180614logo.png"></div>
+		<div class="navDiv oneNavDiv" data-n="1"><img src="/Mobile/Public/Mobile/image/20180614logo.png"></div>
 		<div class="navDiv twoNavDiv">400-052-0680</div>
-		<div class="navDiv threeNavDiv"><img src="/Hope-three/Public/Mobile/image/20180614search.png" style="margin-right:2rem;"></div>
+		<div class="navDiv threeNavDiv"><img src="/Mobile/Public/Mobile/image/20180614search.png" style="margin-right:2rem;"></div>
 		<div class="cl"></div>
 	</div>
-<link rel="stylesheet" href="/Hope-three/Public/Mobile/css/bootstrap.min.css">
-<link rel="stylesheet" href="/Hope-three/Public/Mobile/css/font-awesome.css">
-<script src="/Hope-three/Public/Mobile/js/zepto.min.js"></script>
-<link rel="stylesheet" href="/Hope-three/Public/Mobile/css/swiper-4.3.3.min.css">
-<script src="/Hope-three/Public/Mobile/js/swiper-4.3.3.min.js"></script>
+<link rel="stylesheet" href="/Mobile/Public/Mobile/css/bootstrap.min.css">
+<link rel="stylesheet" href="/Mobile/Public/Mobile/css/font-awesome.css">
+<script src="/Mobile/Public/Mobile/js/zepto.min.js"></script>
+<link rel="stylesheet" href="/Mobile/Public/Mobile/css/swiper-4.3.3.min.css">
+<script src="/Mobile/Public/Mobile/js/swiper-4.3.3.min.js"></script>
 	<style>
 		/*主体部分开始*/
 		.mainBox{
@@ -290,19 +290,19 @@
 			<div class="swiper-container">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<a href=""><img class="autoBanner" src="/Hope-three/Public/Mobile/image/20180615banner1.jpg"></a>
+						<a href=""><img class="autoBanner" src="/Mobile/Public/Mobile/image/20180615banner1.jpg"></a>
 						<div class="bannerText">
 							<div class="bannerText1">5种食物竟然是防癌圣品</div>
 						</div>
 					</div>
 					<div class="swiper-slide">
-						<a href=""><img class="autoBanner" src="/Hope-three/Public/Mobile/image/20180615banner2.jpg"></a>
+						<a href=""><img class="autoBanner" src="/Mobile/Public/Mobile/image/20180615banner2.jpg"></a>
 						<div class="bannerText">
 							<div class="bannerText1">5种食物竟然是防癌圣品</div>
 						</div>
 					</div>
 					<div class="swiper-slide">
-						<a href=""><img class="autoBanner" src="/Hope-three/Public/Mobile/image/20180615banner3.jpg"></a>
+						<a href=""><img class="autoBanner" src="/Mobile/Public/Mobile/image/20180615banner3.jpg"></a>
 						<div class="bannerText">
 							<div class="bannerText1">5种食物竟然是防癌圣品</div>
 						</div>
@@ -318,31 +318,31 @@
 				<div class="cl"></div>
 			</div>
 			<div class="departments" data-n="1">
-				<a href="http://192.168.1.21/Hope-three/index.php/Mobile/Index/expertList"><div class="department"><div class="departmentImg"><img src="/Hope-three/Public/Mobile/image/20180626zhongliuke.png"></div><div class="departmentTitle">肿瘤科</div></div></a>
-				<div class="department"><div class="departmentImg"><img src="/Hope-three/Public/Mobile/image/20180626shenjingwaike.png"></div><div class="departmentTitle">神经外科</div></div>
-				<div class="department"><div class="departmentImg"><img src="/Hope-three/Public/Mobile/image/20180628wuguanke.png"></div><div class="departmentTitle">五官科</div></div>
-				<div class="department"><div class="departmentImg"><img src="/Hope-three/Public/Mobile/image/20180626yanke.png"></div><div class="departmentTitle">眼科</div></div>
-				<div class="department"><div class="departmentImg"><img src="/Hope-three/Public/Mobile/image/20180626shenjingneike.png"></div><div class="departmentTitle">神经内科</div></div>
-				<div class="department"><div class="departmentImg"><img src="/Hope-three/Public/Mobile/image/20180626ruxianke.png"></div><div class="departmentTitle">乳腺外科</div></div>
-				<div class="department"><div class="departmentImg"><img src="/Hope-three/Public/Mobile/image/20180626xiongwaike.png"></div><div class="departmentTitle">胸外科</div></div>
-				<div class="department"><div class="departmentImg"><img src="/Hope-three/Public/Mobile/image/20180626xiaohuake.png"></div><div class="departmentTitle">消化科</div></div>
-				<div class="department"><div class="departmentImg"><img src="/Hope-three/Public/Mobile/image/20180626yizhizhongxin.png"></div><div class="departmentTitle">移植中心</div></div>
-				<div class="department"><div class="departmentImg"><img src="/Hope-three/Public/Mobile/image/20180626fuke.png"></div><div class="departmentTitle">妇科</div></div>
-				<div class="department"><div class="departmentImg"><img src="/Hope-three/Public/Mobile/image/20180626miniaoke.png"></div><div class="departmentTitle">泌尿科</div></div>
-				<div class="department"><div class="departmentImg"><img src="/Hope-three/Public/Mobile/image/20180626shengzhi.png"></div><div class="departmentTitle">生殖科</div></div>
-				<div class="department"><div class="departmentImg"><img src="/Hope-three/Public/Mobile/image/20180626xinneike.png"></div><div class="departmentTitle">心内科</div></div>
+				<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/expertList"><div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626zhongliuke.png"></div><div class="departmentTitle">肿瘤科</div></div></a>
+				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626shenjingwaike.png"></div><div class="departmentTitle">神经外科</div></div>
+				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180628wuguanke.png"></div><div class="departmentTitle">五官科</div></div>
+				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626yanke.png"></div><div class="departmentTitle">眼科</div></div>
+				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626shenjingneike.png"></div><div class="departmentTitle">神经内科</div></div>
+				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626ruxianke.png"></div><div class="departmentTitle">乳腺外科</div></div>
+				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626xiongwaike.png"></div><div class="departmentTitle">胸外科</div></div>
+				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626xiaohuake.png"></div><div class="departmentTitle">消化科</div></div>
+				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626yizhizhongxin.png"></div><div class="departmentTitle">移植中心</div></div>
+				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626fuke.png"></div><div class="departmentTitle">妇科</div></div>
+				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626miniaoke.png"></div><div class="departmentTitle">泌尿科</div></div>
+				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626shengzhi.png"></div><div class="departmentTitle">生殖科</div></div>
+				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626xinneike.png"></div><div class="departmentTitle">心内科</div></div>
 				<div class="cl"></div>
 			</div>
 		</div> 
 		<div class="doctorRecommend">
 			<div class="doctorRecommendOne">
 				<div class="doctorRecommendLine" style="margin-left:2rem;color:#009FA8;font-size:5rem;">最新专家</div>
-				<div class="doctorRecommendLine" style="float:right;color:#666;font-size:3.5rem;text-align:right;">更多<img style="position:relative;top:0.3rem;margin-left:1rem;" src="/Hope-three/Public/Mobile/image/20180615right.png"> &nbsp;&nbsp;</div>
+				<div class="doctorRecommendLine" style="float:right;color:#999;font-size:3.5rem;text-align:right;">更多<img style="position:relative;top:0.3rem;margin-left:1rem;" src="/Mobile/Public/Mobile/image/20180615right.png"> &nbsp;&nbsp;</div>
 			</div>  
 			<div class="hospitalRecommendTwo" style="height:115rem;"> 
 				<div style="width:100%;height:2rem;"></div>
 				<div class="MessagePreList">
-					<div class="MessagePreListLeft"><img class="leftImgStyle" src="/Hope-three/Public/Mobile/image/20180627muneiyaming.png"></div>
+					<div class="MessagePreListLeft"><img class="leftImgStyle" src="/Mobile/Public/Mobile/image/20180627muneiyaming.png"></div>
 					<div class="MessagePreListRight">
 						<div class="MessagePreListRightU">幕内雅敏</div>
 						<div class="MessagePreListRightB">幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏</div>
@@ -351,7 +351,7 @@
 				</div> 
 				<div style="width:100%;height:2rem;"></div>
 				<div class="MessagePreList">
-					<div class="MessagePreListLeft"><img class="leftImgStyle" src="/Hope-three/Public/Mobile/image/20180615banner3.jpg"></div>
+					<div class="MessagePreListLeft"><img class="leftImgStyle" src="/Mobile/Public/Mobile/image/20180615banner3.jpg"></div>
 					<div class="MessagePreListRight">
 						<div class="MessagePreListRightU">幕内雅敏</div>
 						<div class="MessagePreListRightB">幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏</div>
@@ -360,7 +360,7 @@
 				</div> 
 				<div style="width:100%;height:2rem;"></div>
 				<div class="MessagePreList">
-					<div class="MessagePreListLeft"><img class="leftImgStyle" src="/Hope-three/Public/Mobile/image/20180615banner1.jpg"></div>
+					<div class="MessagePreListLeft"><img class="leftImgStyle" src="/Mobile/Public/Mobile/image/20180615banner1.jpg"></div>
 					<div class="MessagePreListRight">
 						<div class="MessagePreListRightU">幕内雅敏</div>
 						<div class="MessagePreListRightB">幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏</div>
@@ -369,7 +369,7 @@
 				</div> 
 				<div style="width:100%;height:2rem;"></div>
 				<div class="MessagePreList">
-					<div class="MessagePreListLeft"><img class="leftImgStyle" src="/Hope-three/Public/Mobile/image/20180615banner2.jpg"></div>
+					<div class="MessagePreListLeft"><img class="leftImgStyle" src="/Mobile/Public/Mobile/image/20180615banner2.jpg"></div>
 					<div class="MessagePreListRight">
 						<div class="MessagePreListRightU">幕内雅敏</div>
 						<div class="MessagePreListRightB">幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏</div>
@@ -378,7 +378,7 @@
 				</div> 
 				<div style="width:100%;height:2rem;"></div>
 				<div class="MessagePreList">
-					<div class="MessagePreListLeft"><img class="leftImgStyle" src="/Hope-three/Public/Mobile/image/20180615banner3.jpg"></div>
+					<div class="MessagePreListLeft"><img class="leftImgStyle" src="/Mobile/Public/Mobile/image/20180615banner3.jpg"></div>
 					<div class="MessagePreListRight">
 						<div class="MessagePreListRightU">幕内雅敏</div>
 						<div class="MessagePreListRightB">幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏</div>
@@ -387,7 +387,7 @@
 				</div>
 			</div>   
 			<div class="clickViewMore">
-				<div class="clickViewMoreImg"><img src="/Hope-three/Public/Mobile/image/20180619viewmore.png"></div>
+				<div class="clickViewMoreImg"><img src="/Mobile/Public/Mobile/image/20180619viewmore.png"></div>
 				<div class="clickViewMore">点击查看更多</div>
 			</div>   
 			   
@@ -417,25 +417,25 @@
 			$(this).css({'background':'#009FA8','color':'#fff'});
 		});
 		//动态改变导航栏信息
-		$('.oneNavDiv').html('<img src="/Hope-three/Public/Mobile/image/20180627reback.png">');
+		$('.oneNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180627reback.png">');
 		$('.oneNavDiv').data('n',2);
 		$('.twoNavDiv').html('超级专家');
 	</script> 
 	<div class="mobilePublicFot">
 		<div class="fotDiv fotDivBorder fotDivBorderNav" data-n="1">
-			<div class="fotDivFirst"><img src="/Hope-three/Public/Mobile/image/20180614daohang.png" class="firstImg"></div>
+			<div class="fotDivFirst"><img src="/Mobile/Public/Mobile/image/20180614daohang.png" class="firstImg"></div>
 			<div class="fotDivTwo">导航</div>
 		</div>
 		<div class="fotDiv fotDivBorder">
-			<div class="fotDivFirst"><img src="/Hope-three/Public/Mobile/image/20180614dianhuazixun.png" class="firstImg"></div>
+			<div class="fotDivFirst"><img src="/Mobile/Public/Mobile/image/20180614dianhuazixun.png" class="firstImg"></div>
 			<div class="fotDivTwo">电话咨询</div>
 		</div>
 		<div class="fotDiv fotDivBorder">
-			<div class="fotDivFirst"><img src="/Hope-three/Public/Mobile/image/20180614zaixianzixun.png" class="firstImg"></div>
+			<div class="fotDivFirst"><img src="/Mobile/Public/Mobile/image/20180614zaixianzixun.png" class="firstImg"></div>
 			<div class="fotDivTwo">在线咨询</div>
 		</div>
 		<div class="fotDiv">
-			<div class="fotDivFirst"><img src="/Hope-three/Public/Mobile/image/20180614liuyan.png" class="firstImg"></div>
+			<div class="fotDivFirst"><img src="/Mobile/Public/Mobile/image/20180614liuyan.png" class="firstImg"></div>
 			<div class="fotDivTwo">立即留言</div>
 		</div>
 	</div>
@@ -490,21 +490,21 @@
 				$('.twoNavDiv').css({'color':'#999'});
 				<!-- alert(publicN); -->
 				if(publicN == 2){
-					$('.oneNavDiv').html('<img src="/Hope-three/Public/Mobile/image/20180627newreback.png">');
+					$('.oneNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180627newreback.png">');
 				}else{
-					$('.oneNavDiv').html('<img src="/Hope-three/Public/Mobile/image/20180627newlogo.png">');
+					$('.oneNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180627newlogo.png">');
 				}
-				$('.threeNavDiv').html('<img src="/Hope-three/Public/Mobile/image/20180627newsearch.png" style="margin-right:2rem;">');
+				$('.threeNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180627newsearch.png" style="margin-right:2rem;">');
 				$('.mobilePublicNav').css({'box-shadow':'0rem 0rem 4rem rgba(220,220,220,1)'});
 			}else{
 				$('.mobilePublicNav').css({'background':'#009FA8'});
 				$('.twoNavDiv').css({'color':'#fff'});
 				if(publicN == 2){
-					$('.oneNavDiv').html('<img src="/Hope-three/Public/Mobile/image/20180627reback.png">');
+					$('.oneNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180627reback.png">');
 				}else{
-					$('.oneNavDiv').html('<img src="/Hope-three/Public/Mobile/image/20180614logo.png">');
+					$('.oneNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180614logo.png">');
 				}
-				$('.threeNavDiv').html('<img src="/Hope-three/Public/Mobile/image/20180614search.png" style="margin-right:2rem;">');
+				$('.threeNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180614search.png" style="margin-right:2rem;">');
 				
 			}
 		});

@@ -121,16 +121,16 @@
 	</style>
 </head>
 	<div class="mobilePublicNav">
-		<div class="navDiv oneNavDiv" data-n="1"><img src="/Hope-three/Public/Mobile/image/20180614logo.png"></div>
+		<div class="navDiv oneNavDiv" data-n="1"><img src="/Mobile/Public/Mobile/image/20180614logo.png"></div>
 		<div class="navDiv twoNavDiv">400-052-0680</div>
-		<div class="navDiv threeNavDiv"><img src="/Hope-three/Public/Mobile/image/20180614search.png" style="margin-right:2rem;"></div>
+		<div class="navDiv threeNavDiv"><img src="/Mobile/Public/Mobile/image/20180614search.png" style="margin-right:2rem;"></div>
 		<div class="cl"></div>
 	</div>
-<link rel="stylesheet" href="/Hope-three/Public/Mobile/css/bootstrap.min.css">
-<link rel="stylesheet" href="/Hope-three/Public/Mobile/css/font-awesome.css">
-<script src="/Hope-three/Public/Mobile/js/zepto.min.js"></script>
-<link rel="stylesheet" href="/Hope-three/Public/Mobile/css/swiper-4.3.3.min.css">
-<script src="/Hope-three/Public/Mobile/js/swiper-4.3.3.min.js"></script>
+<link rel="stylesheet" href="/Mobile/Public/Mobile/css/bootstrap.min.css">
+<link rel="stylesheet" href="/Mobile/Public/Mobile/css/font-awesome.css">
+<script src="/Mobile/Public/Mobile/js/zepto.min.js"></script>
+<link rel="stylesheet" href="/Mobile/Public/Mobile/css/swiper-4.3.3.min.css">
+<script src="/Mobile/Public/Mobile/js/swiper-4.3.3.min.js"></script>
 	<style>
 		/*主体部分开始*/
 		.mainBox{
@@ -297,15 +297,63 @@
 			background:#fff;
 			color:#999;
 		}
+		.specialTitlePublic{
+			height:4rem;
+			line-height:4rem;
+			width:30%;
+			float:left;
+		}
+		.specialTitlePublicMore{
+			margin-left:57%;
+			text-align:rignt;
+			font-size:3.5rem;
+			color:#999;
+			width:12%;
+		}
+		.specialContentLine{
+			width:100%;
+			height:auto;
+			padding:2rem 2rem 2rem 2rem;
+		}
+		.specialContentLineL{
+			width:20%;
+			height:20rem;
+			line-height:20rem;
+			float:left;
+		}
+		.specialContentLineR{
+			width:79%;
+			height:20rem;
+			float:left;
+			margin-left:1%;
+		}
+		.specialContentLineR1{
+			width:100%;
+			height:8rem;
+			line-height:8rem;
+			font-size:4rem;
+			color:#333;
+		}
+		.specialContentLineR2{
+			width:100%;
+			height:10rem;
+			line-height:5rem;
+			font-size:3.5rem;
+			color:#666;
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp: 2;
+			overflow: hidden;
+		}
 	</style>
 	<div class="mainBox">
 		<div class="BreadcrumbTrail">
-			<div class="breadLeftImg"><img src="/Hope-three/Public/Mobile/image/20180627backtoindex.png"> 首页</div>
+			<div class="breadLeftImg"><img src="/Mobile/Public/Mobile/image/20180627backtoindex.png"> 首页</div>
 			<div class="breadLeftText"> > 超级专家 > 日本肿瘤专家 > 幕内亚敏</div>
 		</div>
 		<div class="coverHospital">
 			<div class="hospitalOne">
-				<div class="hospitalOneL"><img style="width:100%;" src="/Hope-three/Public/Mobile/image/20180615banner2.jpg"></div>
+				<div class="hospitalOneL"><img style="width:100%;" src="/Mobile/Public/Mobile/image/20180615banner2.jpg"></div>
 				<div class="hospitalOneR">
 					<div class="hospitalOneR1">美国麻省总医院</div>
 					<div class="hospitalOneR2">幕内教授在肝切除及活体肝移植领域排名世界第一幕内教授在肝切除及活体肝移植领域排名世界第一</div>
@@ -315,7 +363,7 @@
 		</div>
 		<div class="abstract">BioMedExperts排名中，幕内教授在肝切除及活体肝移植领域排名世界第一。幕内教授是国际外科、消化科和肿瘤科医师协会(IASGO)主席，日本外科学主席，被NHK电视台采访并拍摄纪录片。世界首次成功进行小儿活体肝移植手术，世界第一例采用左半肝供肝的成人间活体肝移植术，世界第一例将术中超声融入</div>
 		<div class="specialDepartment">
-			<div class="specialTitle"><img src="/Hope-three/Public/Mobile/image/20180627youshikeshi.png"></div>
+			<div class="specialTitle"><img src="/Mobile/Public/Mobile/image/20180627youshikeshi.png"></div>
 			<div class="specialContent">
 				<div class="specialContentDepartment">肿瘤科</div>
 				<div class="specialContentDepartment">神经外科</div>
@@ -327,9 +375,36 @@
 			</div>
 		</div>
 		<div class="specialDepartment">
-			<div class="specialTitle"><img src="/Hope-three/Public/Mobile/image/20180627quanweizhuanjia.png"></div>
+			<div class="specialTitle">
+				<div class="specialTitlePublic"><img src="/Mobile/Public/Mobile/image/20180627quanweizhuanjia.png"></div>
+				<div class="specialTitlePublic specialTitlePublicMore">更多 <img src="/Mobile/Public/Mobile/image/20180615right.png"></div>
+				<div class="cl"></div>
+			</div>
 			<div class="specialContent">
-				
+				<div class="specialContentLine">
+					<div class="specialContentLineL"><img src="/Mobile/Public/Mobile/image/20180627muneiyaming.png"></div>
+					<div class="specialContentLineR">
+						<div class="specialContentLineR1">幕内雅敏</div>
+						<div class="specialContentLineR2">消化系消化系消化系统疾病统疾病统消化系统消化系统疾病疾病疾病</div>
+					</div>
+					<div class="cl"></div>
+				</div>
+				<div class="specialContentLine">
+					<div class="specialContentLineL"><img src="/Mobile/Public/Mobile/image/20180627muneiyaming.png"></div>
+					<div class="specialContentLineR">
+						<div class="specialContentLineR1">幕内雅敏</div>
+						<div class="specialContentLineR2">在现代肝脏外科的发展史上是位温文尔雅、为人熟知的专家。</div>
+					</div>
+					<div class="cl"></div>
+				</div>
+				<div class="specialContentLine">
+					<div class="specialContentLineL"><img src="/Mobile/Public/Mobile/image/20180627muneiyaming.png"></div>
+					<div class="specialContentLineR">
+						<div class="specialContentLineR1">幕内雅敏</div>
+						<div class="specialContentLineR2">消消化系统疾病消化系统疾病化系消化系统疾病消化系统疾病统疾病</div>
+					</div>
+					<div class="cl"></div>
+				</div>
 			</div>
 		</div>
 		<div class="mainContent">
@@ -422,14 +497,14 @@ BioMedExperts排名中，幕内教授在肝切除及活体肝移植领域排名�
 日本肝胆胰外科学会高度技能指导医</div>
 		</div>
 		<div class="clickViewMoreDiv">
-			<div class="clickViewMoreImg"><img src="/Hope-three/Public/Mobile/image/20180619viewmore.png"></div>
+			<div class="clickViewMoreImg"><img src="/Mobile/Public/Mobile/image/20180619viewmore.png"></div>
 			<div class="clickViewMore">点击阅读更多</div>
 		</div>
 		<div style="width:100%;height:30rem;background:#fff;"></div>  
 	</div>
 	<script>
 		//动态改变导航栏信息
-		$('.oneNavDiv').html('<img src="/Hope-three/Public/Mobile/image/20180627reback.png">');
+		$('.oneNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180627reback.png">');
 		$('.oneNavDiv').data('n',2);
 		$('.twoNavDiv').html('美国麻省总医院');
 		//阅读全文
@@ -448,19 +523,19 @@ BioMedExperts排名中，幕内教授在肝切除及活体肝移植领域排名�
 	</script> 
 	<div class="mobilePublicFot">
 		<div class="fotDiv fotDivBorder fotDivBorderNav" data-n="1">
-			<div class="fotDivFirst"><img src="/Hope-three/Public/Mobile/image/20180614daohang.png" class="firstImg"></div>
+			<div class="fotDivFirst"><img src="/Mobile/Public/Mobile/image/20180614daohang.png" class="firstImg"></div>
 			<div class="fotDivTwo">导航</div>
 		</div>
 		<div class="fotDiv fotDivBorder">
-			<div class="fotDivFirst"><img src="/Hope-three/Public/Mobile/image/20180614dianhuazixun.png" class="firstImg"></div>
+			<div class="fotDivFirst"><img src="/Mobile/Public/Mobile/image/20180614dianhuazixun.png" class="firstImg"></div>
 			<div class="fotDivTwo">电话咨询</div>
 		</div>
 		<div class="fotDiv fotDivBorder">
-			<div class="fotDivFirst"><img src="/Hope-three/Public/Mobile/image/20180614zaixianzixun.png" class="firstImg"></div>
+			<div class="fotDivFirst"><img src="/Mobile/Public/Mobile/image/20180614zaixianzixun.png" class="firstImg"></div>
 			<div class="fotDivTwo">在线咨询</div>
 		</div>
 		<div class="fotDiv">
-			<div class="fotDivFirst"><img src="/Hope-three/Public/Mobile/image/20180614liuyan.png" class="firstImg"></div>
+			<div class="fotDivFirst"><img src="/Mobile/Public/Mobile/image/20180614liuyan.png" class="firstImg"></div>
 			<div class="fotDivTwo">立即留言</div>
 		</div>
 	</div>
@@ -515,21 +590,21 @@ BioMedExperts排名中，幕内教授在肝切除及活体肝移植领域排名�
 				$('.twoNavDiv').css({'color':'#999'});
 				<!-- alert(publicN); -->
 				if(publicN == 2){
-					$('.oneNavDiv').html('<img src="/Hope-three/Public/Mobile/image/20180627newreback.png">');
+					$('.oneNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180627newreback.png">');
 				}else{
-					$('.oneNavDiv').html('<img src="/Hope-three/Public/Mobile/image/20180627newlogo.png">');
+					$('.oneNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180627newlogo.png">');
 				}
-				$('.threeNavDiv').html('<img src="/Hope-three/Public/Mobile/image/20180627newsearch.png" style="margin-right:2rem;">');
+				$('.threeNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180627newsearch.png" style="margin-right:2rem;">');
 				$('.mobilePublicNav').css({'box-shadow':'0rem 0rem 4rem rgba(220,220,220,1)'});
 			}else{
 				$('.mobilePublicNav').css({'background':'#009FA8'});
 				$('.twoNavDiv').css({'color':'#fff'});
 				if(publicN == 2){
-					$('.oneNavDiv').html('<img src="/Hope-three/Public/Mobile/image/20180627reback.png">');
+					$('.oneNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180627reback.png">');
 				}else{
-					$('.oneNavDiv').html('<img src="/Hope-three/Public/Mobile/image/20180614logo.png">');
+					$('.oneNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180614logo.png">');
 				}
-				$('.threeNavDiv').html('<img src="/Hope-three/Public/Mobile/image/20180614search.png" style="margin-right:2rem;">');
+				$('.threeNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180614search.png" style="margin-right:2rem;">');
 				
 			}
 		});

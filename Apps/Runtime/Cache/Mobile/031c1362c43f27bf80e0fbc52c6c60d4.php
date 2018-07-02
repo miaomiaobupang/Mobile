@@ -121,16 +121,16 @@
 	</style>
 </head>
 	<div class="mobilePublicNav">
-		<div class="navDiv oneNavDiv" data-n="1"><img src="/Hope-three/Public/Mobile/image/20180614logo.png"></div>
+		<div class="navDiv oneNavDiv" data-n="1"><img src="/Mobile/Public/Mobile/image/20180614logo.png"></div>
 		<div class="navDiv twoNavDiv">400-052-0680</div>
-		<div class="navDiv threeNavDiv"><img src="/Hope-three/Public/Mobile/image/20180614search.png" style="margin-right:2rem;"></div>
+		<div class="navDiv threeNavDiv"><img src="/Mobile/Public/Mobile/image/20180614search.png" style="margin-right:2rem;"></div>
 		<div class="cl"></div>
 	</div>
-<link rel="stylesheet" href="/Hope-three/Public/Mobile/css/bootstrap.min.css">
-<link rel="stylesheet" href="/Hope-three/Public/Mobile/css/font-awesome.css">
-<script src="/Hope-three/Public/Mobile/js/zepto.min.js"></script>
-<link rel="stylesheet" href="/Hope-three/Public/Mobile/css/swiper-4.3.3.min.css">
-<script src="/Hope-three/Public/Mobile/js/swiper-4.3.3.min.js"></script>
+<link rel="stylesheet" href="/Mobile/Public/Mobile/css/bootstrap.min.css">
+<link rel="stylesheet" href="/Mobile/Public/Mobile/css/font-awesome.css">
+<script src="/Mobile/Public/Mobile/js/zepto.min.js"></script>
+<link rel="stylesheet" href="/Mobile/Public/Mobile/css/swiper-4.3.3.min.css">
+<script src="/Mobile/Public/Mobile/js/swiper-4.3.3.min.js"></script>
 	<style>
 		/*主体部分开始*/
 		.mainBox{
@@ -172,7 +172,7 @@
 			width:100%;
 			height:40rem;
 			margin-top:2rem;
-			background-image:url('/Hope-three/Public/Mobile/image/20180627coverperson.png');
+			background-image:url('/Mobile/Public/Mobile/image/20180627coverperson.png');
 			background-repeat:repeat-y;
 		}
 		.coverOne{
@@ -282,14 +282,14 @@
 	</style>
 	<div class="mainBox">
 		<div class="BreadcrumbTrail">
-			<div class="breadLeftImg"><img src="/Hope-three/Public/Mobile/image/20180627backtoindex.png"> 首页</div>
+			<div class="breadLeftImg"><img src="/Mobile/Public/Mobile/image/20180627backtoindex.png"> 首页</div>
 			<div class="breadLeftText"> > 超级专家 > 日本肿瘤专家 > 幕内亚敏</div>
 		</div>
 		<div class="coverPerson">
-			<div class="coverOne"><img src="/Hope-three/Public/Mobile/image/20180627muneiyaming.png"></div>
+			<div class="coverOne"><img src="/Mobile/Public/Mobile/image/20180627muneiyaming.png"></div>
 			<div class="coverTwo">幕内亚敏 教授</div>
 			<div class="coverThree">
-				<div class="coverThreeO"><img src="/Hope-three/Public/Mobile/image/20180627detaildisease.png"></div>
+				<div class="coverThreeO"><img src="/Mobile/Public/Mobile/image/20180627detaildisease.png"></div>
 				<div class="coverThreeT">肝癌 肝病</div>
 			</div>
 		</div>
@@ -384,14 +384,14 @@ BioMedExperts排名中，幕内教授在肝切除及活体肝移植领域排名�
 日本肝胆胰外科学会高度技能指导医</div>
 		</div>
 		<div class="clickViewMoreDiv">
-			<div class="clickViewMoreImg"><img src="/Hope-three/Public/Mobile/image/20180619viewmore.png"></div>
+			<div class="clickViewMoreImg"><img src="/Mobile/Public/Mobile/image/20180619viewmore.png"></div>
 			<div class="clickViewMore">点击阅读更多</div>
 		</div>
 		<div style="width:100%;height:30rem;background:#fff;"></div>  
 	</div>
 	<script>
 		//动态改变导航栏信息
-		$('.oneNavDiv').html('<img src="/Hope-three/Public/Mobile/image/20180627reback.png">');
+		$('.oneNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180627reback.png">');
 		$('.oneNavDiv').data('n',2);
 		$('.twoNavDiv').html('幕内亚敏');
 		//阅读全文
@@ -410,19 +410,19 @@ BioMedExperts排名中，幕内教授在肝切除及活体肝移植领域排名�
 	</script> 
 	<div class="mobilePublicFot">
 		<div class="fotDiv fotDivBorder fotDivBorderNav" data-n="1">
-			<div class="fotDivFirst"><img src="/Hope-three/Public/Mobile/image/20180614daohang.png" class="firstImg"></div>
+			<div class="fotDivFirst"><img src="/Mobile/Public/Mobile/image/20180614daohang.png" class="firstImg"></div>
 			<div class="fotDivTwo">导航</div>
 		</div>
 		<div class="fotDiv fotDivBorder">
-			<div class="fotDivFirst"><img src="/Hope-three/Public/Mobile/image/20180614dianhuazixun.png" class="firstImg"></div>
+			<div class="fotDivFirst"><img src="/Mobile/Public/Mobile/image/20180614dianhuazixun.png" class="firstImg"></div>
 			<div class="fotDivTwo">电话咨询</div>
 		</div>
 		<div class="fotDiv fotDivBorder">
-			<div class="fotDivFirst"><img src="/Hope-three/Public/Mobile/image/20180614zaixianzixun.png" class="firstImg"></div>
+			<div class="fotDivFirst"><img src="/Mobile/Public/Mobile/image/20180614zaixianzixun.png" class="firstImg"></div>
 			<div class="fotDivTwo">在线咨询</div>
 		</div>
 		<div class="fotDiv">
-			<div class="fotDivFirst"><img src="/Hope-three/Public/Mobile/image/20180614liuyan.png" class="firstImg"></div>
+			<div class="fotDivFirst"><img src="/Mobile/Public/Mobile/image/20180614liuyan.png" class="firstImg"></div>
 			<div class="fotDivTwo">立即留言</div>
 		</div>
 	</div>
@@ -477,21 +477,21 @@ BioMedExperts排名中，幕内教授在肝切除及活体肝移植领域排名�
 				$('.twoNavDiv').css({'color':'#999'});
 				<!-- alert(publicN); -->
 				if(publicN == 2){
-					$('.oneNavDiv').html('<img src="/Hope-three/Public/Mobile/image/20180627newreback.png">');
+					$('.oneNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180627newreback.png">');
 				}else{
-					$('.oneNavDiv').html('<img src="/Hope-three/Public/Mobile/image/20180627newlogo.png">');
+					$('.oneNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180627newlogo.png">');
 				}
-				$('.threeNavDiv').html('<img src="/Hope-three/Public/Mobile/image/20180627newsearch.png" style="margin-right:2rem;">');
+				$('.threeNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180627newsearch.png" style="margin-right:2rem;">');
 				$('.mobilePublicNav').css({'box-shadow':'0rem 0rem 4rem rgba(220,220,220,1)'});
 			}else{
 				$('.mobilePublicNav').css({'background':'#009FA8'});
 				$('.twoNavDiv').css({'color':'#fff'});
 				if(publicN == 2){
-					$('.oneNavDiv').html('<img src="/Hope-three/Public/Mobile/image/20180627reback.png">');
+					$('.oneNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180627reback.png">');
 				}else{
-					$('.oneNavDiv').html('<img src="/Hope-three/Public/Mobile/image/20180614logo.png">');
+					$('.oneNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180614logo.png">');
 				}
-				$('.threeNavDiv').html('<img src="/Hope-three/Public/Mobile/image/20180614search.png" style="margin-right:2rem;">');
+				$('.threeNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180614search.png" style="margin-right:2rem;">');
 				
 			}
 		});
