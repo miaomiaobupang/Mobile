@@ -1,0 +1,105 @@
+[ 2018-07-03T17:55:31+08:00 ] 192.168.1.21 /Mobile/index.php/Mobile/Index/questionIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+
+[ 2018-07-03T17:55:48+08:00 ] 192.168.1.21 /Mobile/index.php/Mobile/Index/questionIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+
+[ 2018-07-03T17:56:14+08:00 ] 192.168.1.21 /Mobile/index.php/Mobile/Index/questionIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+
+[ 2018-07-03T18:15:13+08:00 ] 192.168.1.21 /Mobile/index.php/Mobile/Index/questionIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+
+[ 2018-07-03T18:15:16+08:00 ] 192.168.1.21 /Mobile/index.php/Mobile/Index/questionIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+
+[ 2018-07-03T18:17:04+08:00 ] 192.168.1.21 /Mobile/index.php/Mobile/Index/questionIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+
+[ 2018-07-03T18:20:21+08:00 ] 192.168.1.21 /Mobile/index.php/Mobile/Index/questionIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+
+[ 2018-07-03T18:21:38+08:00 ] 192.168.1.21 /Mobile/index.php/Mobile/Index/questionIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+
+[ 2018-07-03T18:22:40+08:00 ] 192.168.1.21 /Mobile/index.php/Mobile/Index/questionIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+
+[ 2018-07-03T18:22:41+08:00 ] 192.168.1.21 /Mobile/index.php/Mobile/Index/questionIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+
+[ 2018-07-03T18:23:08+08:00 ] 192.168.1.21 /Mobile/index.php/Mobile/Index/diseaseIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+
+[ 2018-07-03T18:23:22+08:00 ] 192.168.1.21 /Mobile/index.php/Mobile/Index/expertIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+
+[ 2018-07-03T18:34:35+08:00 ] 192.168.1.21 /Mobile/index.php/Mobile/Index/questionIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+
+[ 2018-07-03T18:34:57+08:00 ] 192.168.1.21 /Mobile/index.php/Mobile/Index/questionIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+
+[ 2018-07-03T18:35:16+08:00 ] 192.168.1.21 /Mobile/index.php/Mobile/Index/questionIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+
+[ 2018-07-03T18:35:47+08:00 ] 192.168.1.21 /Mobile/index.php/Mobile/Index/questionIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+
+[ 2018-07-03T18:36:14+08:00 ] 192.168.1.21 /Mobile/index.php/Mobile/Index/questionIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+
+[ 2018-07-03T18:36:30+08:00 ] 192.168.1.21 /Mobile/index.php/Mobile/Index/questionIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+
+[ 2018-07-03T18:37:51+08:00 ] 192.168.1.21 /Mobile/index.php/Mobile/Index/questionIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+
+[ 2018-07-03T18:41:19+08:00 ] 192.168.1.21 /Mobile/index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+
+[ 2018-07-03T18:48:47+08:00 ] 192.168.1.21 /Mobile/index.php/Mobile/Index/questionIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+

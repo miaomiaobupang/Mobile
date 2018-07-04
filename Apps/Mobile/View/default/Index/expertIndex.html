@@ -1,9 +1,4 @@
 <include file="Public/publicHeader" />
-<link rel="stylesheet" href="__CSS__/bootstrap.min.css">
-<link rel="stylesheet" href="__CSS__/font-awesome.css">
-<script src="__JS__/zepto.min.js"></script>
-<link rel="stylesheet" href="__CSS__/swiper-4.3.3.min.css">
-<script src="__JS__/swiper-4.3.3.min.js"></script>
 	<style>
 		/*主体部分开始*/
 		.mainBox{
@@ -18,7 +13,6 @@
 		}
 		.autoBanner{
 			width:100%;
-			height:32rem;
 		}
 		.bannerText{
 			width:100%;
@@ -270,9 +264,7 @@
 	<script>
 		//轮播图
 		var mySwiper = new Swiper('.swiper-container',{
-				loop: true,
-				autoplay: 2500,
-				autoplayDisableOnInteraction : false,
+				autoplay: true,
 			});
 		//国家科室切换
 		$('.country').each(function(){

@@ -3,6 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>超级医生</title>
+	<link rel="stylesheet" href="/Mobile/Public/Mobile/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/Mobile/Public/Mobile/css/font-awesome.css">
+	<script src="/Mobile/Public/Mobile/js/zepto.min.js"></script>
+	<link rel="stylesheet" href="/Mobile/Public/Mobile/css/swiper-4.3.3.min.css">
+	<script src="/Mobile/Public/Mobile/js/swiper-4.3.3.min.js"></script>
 	<style>
 		/*共公头部结束*/
 		html{
@@ -126,11 +131,6 @@
 		<div class="navDiv threeNavDiv"><img src="/Mobile/Public/Mobile/image/20180614search.png" style="margin-right:2rem;"></div>
 		<div class="cl"></div>
 	</div>
-<link rel="stylesheet" href="/Mobile/Public/Mobile/css/bootstrap.min.css">
-<link rel="stylesheet" href="/Mobile/Public/Mobile/css/font-awesome.css">
-<script src="/Mobile/Public/Mobile/js/zepto.min.js"></script>
-<link rel="stylesheet" href="/Mobile/Public/Mobile/css/swiper-4.3.3.min.css">
-<script src="/Mobile/Public/Mobile/js/swiper-4.3.3.min.js"></script>
 	<style>
 		/*主体部分开始*/
 		.mainBox{
@@ -140,186 +140,206 @@
 			background:#f0f0f0;
 			position:absolute;
 		}
-		.BreadcrumbTrail{
+		.questionDiseaseKind{
 			width:100%;
-			height:7rem;
-			background:#fff;
+			height:auto;
 			margin-top:12rem;
-		}
-		.breadLeftImg{
-			width:12%;
-			float:left;
-			height:7rem;
-			line-height:7rem;
-			font-size:3.5rem;
-			color:#999;
-			text-align:center;
-			margin-left:2rem;
-		}
-		.breadLeftText{
-			width:85%;
-			height:7rem;
-			line-height:7rem;
-			float:left;
-			font-size:3.5rem;
-			color:#999;
-			text-align:left;
-			overflow: hidden;
-			text-overflow:ellipsis;
-			white-space: nowrap;
-		}
-		.doctorRecommend{
-			margin-top:2rem;
-			width:100%;
-			height:auto;
-		}
-		.doctorRecommendOne{
-			width:100%;
-			height:9rem;
-			background:#fff;
-			border-bottom:0.2rem solid rgba(220,220,220,1);
-		}
-		.doctorRecommendLine{
-			width:20rem;
-			height:9rem;
-			line-height:9rem;
-			font-size:4rem;
-			text-align:center;
-			float:left;
-		}
-		.hospitalRecommendTwo{
-			width:100%;
-			height:50rem;
 			background:#fff;
 		}
-		.MessagePreList{
-			width:95%;
-			height:auto;
-			margin-left:3%;
-			border-bottom:0.2rem solid rgba(220,220,220,1);
-		}
-		.MessagePreListLeft{
-			width:17%;
-			height:20rem;
+		.questionKind{
+			width:25%;
+			height:18rem;
 			float:left;
 		}
-		.MessagePreListRight{
-			width:77%;
-			margin-left:2rem;
-			height:20rem;
-			float:left;
-		}
-		.MessagePreListRightU{
-			height:5rem;
-			line-height:5rem;
-			font-size:4rem;
-			display: -webkit-box;
-			-webkit-box-orient: vertical;
-			-webkit-line-clamp: 2;
-			overflow: hidden;
-		}
-		.MessagePreListRightB{
-			font-size:3.5rem;
-			display: -webkit-box;
-			-webkit-box-orient: vertical;
-			-webkit-line-clamp: 2;
-			overflow: hidden;
-			color:#666666;
-			margin-top:2rem;
-		}
-		.clickViewMoreImg{
-			width:100%;
-			height:5rem;
-			line-height:5rem;
-			text-align:center;
-			background:#fff;
-		}
-		.clickViewMore{
+		.questionKindU{
 			width:100%;
 			height:10rem;
 			line-height:10rem;
 			text-align:center;
+			margin-top:2rem;
+		}
+		.questionKindD{
+			width:100%;
+			height:5rem;
+			line-height:5rem;
+			text-align:center;
 			font-size:4rem;
+			color:#333;
+		}
+		.questionListBox{
+			width:100%;
+			height:auto;
+			margin-top:2rem;
+			padding:2rem;
 			background:#fff;
 		}
-		.leftImgStyle{
-			width:15rem;
-			height:15rem;
-			border-radius:50%;
+		.questionListTitle{
+			width:100%;
+			height:auto;
+		}
+		.questionList{
+			width:50%;
+			border:0.2rem solid #009FA8;
+			height:8rem;
+			line-height:8rem;
+			float:left;
+			color:#009FA8;
+			text-align:center;
+			font-size:4rem;
+		}
+		.questionListBoxs{
+			width:100%;
+			height:auto;
+			margin-top:2rem;
+		}
+		.questionLists{
+			width:100%;
+			height:8rem;
+			line-height:8rem;
+		}
+		.questionListsL{
+			width:90%;
+			height:5rem;
+			line-height:5rem;
+			float:left;
+			color:#333;
+			font-size:3.5rem;
+			overflow: hidden;
+			text-overflow:ellipsis;
+			white-space: nowrap;
+		}
+		.questionListsR{
+			width:10%;
+			height:5rem;
+			line-height:5rem;
+			float:left;
+			font-size:3rem;
+			color:#666;
+		}
+		
+		
+		
+		.quicklyQuestion{
+			width:100%;
+			height:auto;
+			padding:2rem;
+			margin-top:2rem;
+			background:#fff;
+		}
+		.quicklyQuestionTitle{
+			width:28rem;
+			height:7rem;
+			line-height:7rem;
+			font-size:4rem;
+			background:#009FA8;
+			border-radius:5rem;
+			color:#fff;
+			padding-left:2rem;
+		}
+		.quicklyQuestionTitleOne{
+			width:auto;
+			height:5rem;
+			line-height:5rem;
+			font-size:4rem;
+			margin-top:2rem;
+		}
+		.quicklyQuestionTitleIn{
+			width:100%;
+			height:auto;
+			margin-top:1rem;
+		}
+		.quicklyQuestionTitleInput{
+			width:100%;
+			height:10rem;
+			border:0.1rem solid #999;
+			font-size:4rem;
+			padding-left:2rem;
 		}
 	</style>
 	<div class="mainBox">
-		<div class="BreadcrumbTrail">
-			<div class="breadLeftImg"><img src="/Mobile/Public/Mobile/image/20180627backtoindex.png"> 首页</div>
-			<div class="breadLeftText"> > 超级专家 > 日本肿瘤专家</div>
+		<div class="questionDiseaseKind">
+			<div class="questionKind">
+				<div class="questionKindU"><img src="/Mobile/Public/Mobile/image/20180626zhongliuke.png"></div>
+				<div class="questionKindD">肿瘤</div>
+			</div>
+			<div class="questionKind">
+				<div class="questionKindU"><img src="/Mobile/Public/Mobile/image/20180626xinneike.png"></div>
+				<div class="questionKindD">心脏疾病</div>
+			</div>
+			<div class="questionKind">
+				<div class="questionKindU"><img src="/Mobile/Public/Mobile/image/20180626shenjingwaike.png"></div>
+				<div class="questionKindD">神经疾病</div>
+			</div>
+			<div class="questionKind">
+				<div class="questionKindU"><img src="/Mobile/Public/Mobile/image/20180626zhongliuke.png"></div>
+				<div class="questionKindD">其他</div>
+			</div>
+			<div class="cl"></div>
 		</div>
-		<div class="doctorRecommend">
-			<div class="doctorRecommendOne">
-				<div class="doctorRecommendLine" style="margin-left:2rem;color:#009FA8;font-size:5rem;">最新专家</div>
-				<div class="doctorRecommendLine" style="float:right;color:#999;font-size:3.5rem;text-align:right;">更多<img style="position:relative;top:0.3rem;margin-left:1rem;" src="/Mobile/Public/Mobile/image/20180615right.png"> &nbsp;&nbsp;</div>
-			</div>  
-			<div class="hospitalRecommendTwo" style="height:115rem;"> 
-				<div style="width:100%;height:2rem;"></div>
-				<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/expertDetail">
-					<div class="MessagePreList">
-						<div class="MessagePreListLeft"><img class="leftImgStyle" src="/Mobile/Public/Mobile/image/20180615banner2.jpg"></div>
-						<div class="MessagePreListRight">
-							<div class="MessagePreListRightU">幕内雅敏</div>
-							<div class="MessagePreListRightB">幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏</div>
-						</div>
-						<div class="cl"></div>
-					</div> 
-				</a> 
-				<div style="width:100%;height:2rem;"></div>
-				<div class="MessagePreList">
-					<div class="MessagePreListLeft"><img class="leftImgStyle" src="/Mobile/Public/Mobile/image/20180615banner3.jpg"></div>
-					<div class="MessagePreListRight">
-						<div class="MessagePreListRightU">幕内雅敏</div>
-						<div class="MessagePreListRightB">幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏</div>
-					</div>
-					<div class="cl"></div>
-				</div> 
-				<div style="width:100%;height:2rem;"></div>
-				<div class="MessagePreList">
-					<div class="MessagePreListLeft"><img class="leftImgStyle" src="/Mobile/Public/Mobile/image/20180615banner1.jpg"></div>
-					<div class="MessagePreListRight">
-						<div class="MessagePreListRightU">幕内雅敏</div>
-						<div class="MessagePreListRightB">幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏</div>
-					</div>
-					<div class="cl"></div>
-				</div> 
-				<div style="width:100%;height:2rem;"></div>
-				<div class="MessagePreList">
-					<div class="MessagePreListLeft"><img class="leftImgStyle" src="/Mobile/Public/Mobile/image/20180615banner2.jpg"></div>
-					<div class="MessagePreListRight">
-						<div class="MessagePreListRightU">幕内雅敏</div>
-						<div class="MessagePreListRightB">幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏</div>
-					</div>
-					<div class="cl"></div>
-				</div> 
-				<div style="width:100%;height:2rem;"></div>
-				<div class="MessagePreList">
-					<div class="MessagePreListLeft"><img class="leftImgStyle" src="/Mobile/Public/Mobile/image/20180615banner3.jpg"></div>
-					<div class="MessagePreListRight">
-						<div class="MessagePreListRightU">幕内雅敏</div>
-						<div class="MessagePreListRightB">幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏</div>
-					</div>
-					<div class="cl"></div>
+		<div class="questionListBox">
+			<div class="questionListTitle">
+				<div class="questionList" data-n="1">优质问答</div>
+				<div class="questionList" data-n="2">待解决</div>
+				<div class="cl"></div>
+			</div>
+			<div class="questionListBoxs">
+				<div class="questionLists">
+					<div class="questionListsL">女性右腰部隐痛的原因是什么呢？</div>
+					<div class="questionListsR">6 回答</div>
 				</div>
-			</div>   
-			<div class="clickViewMore">
-				<div class="clickViewMoreImg"><img src="/Mobile/Public/Mobile/image/20180619viewmore.png"></div>
-				<div class="clickViewMore">点击查看更多</div>
-			</div>   
-			   
-			<div style="width:100%;height:30rem;"></div>   
-		</div> 
+				<div class="questionLists">
+					<div class="questionListsL">女性右腰部隐痛的原因是什么呢？</div>
+					<div class="questionListsR">6 回答</div>
+				</div>
+				<div class="questionLists">
+					<div class="questionListsL">女性右腰部隐痛的原因是什么呢？</div>
+					<div class="questionListsR">6 回答</div>
+				</div>
+				<div class="questionLists">
+					<div class="questionListsL">女性右腰部隐痛的原因是什么呢？</div>
+					<div class="questionListsR">6 回答</div>
+				</div>
+				<div class="questionLists">
+					<div class="questionListsL">女性右腰部隐痛的原因是什么呢？</div>
+					<div class="questionListsR">6 回答</div>
+				</div>
+				<div class="questionLists">
+					<div class="questionListsL">女性右腰部隐痛的原因是什么呢？</div>
+					<div class="questionListsR">6 回答</div>
+				</div>
+				<div class="questionLists">
+					<div class="questionListsL">女性右腰部隐痛的原因是什么呢？</div>
+					<div class="questionListsR">6 回答</div>
+				</div>
+			</div>
+		</div>
+		<div class="quicklyQuestion">
+			<div class="quicklyQuestionTitle">快速提问<img style="margin-left:2rem;" src="/Mobile/Public/Mobile/image/20180704edit.png"></div>
+			<div class="quicklyQuestionTitleOne"><img style="margin-right:1rem;" src="/Mobile/Public/Mobile/image/20180704titleLine.png"> 疾病/症状</div>
+			<div class="quicklyQuestionTitleIn"><input class="quicklyQuestionTitleInput" type="text" name="title" value=""/></div>
+		</div>
 	</div>
 	<script>
 		//动态改变导航栏信息
 		$('.oneNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180627reback.png">');
 		$('.oneNavDiv').data('n',2);
-		$('.twoNavDiv').html('日本肿瘤专家');
+		$('.twoNavDiv').html('互动问答');
+		//遍历切换问题
+		$('.questionList').each(function(){
+			var n = $(this).data('n');
+			if(n == 1){
+				$(this).css({'background':'#009FA8','color':'#fff'});
+			}
+		});
+		$('.questionList').on('click',function(){
+			var n = $(this).data('n');
+			if(n == 2){
+				$('.questionList').css({'background':'#fff','color':'#009FA8'});
+				$('.questionList').data('n',2);
+				$(this).css({'background':'#009FA8','color':'#fff'});
+				$(this).data('n',1);
+			}
+		});
 	</script> 
 	<div class="mobilePublicFot">
 		<div class="fotDiv fotDivBorder fotDivBorderNav" data-n="1">

@@ -3,6 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>超级医生</title>
+	<link rel="stylesheet" href="/Mobile/Public/Mobile/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/Mobile/Public/Mobile/css/font-awesome.css">
+	<script src="/Mobile/Public/Mobile/js/zepto.min.js"></script>
+	<link rel="stylesheet" href="/Mobile/Public/Mobile/css/swiper-4.3.3.min.css">
+	<script src="/Mobile/Public/Mobile/js/swiper-4.3.3.min.js"></script>
 	<style>
 		/*共公头部结束*/
 		html{
@@ -442,9 +447,7 @@
 		</div> 
 		<script>
 			var mySwiper = new Swiper('.swiper-container',{
-					loop: true,
-					autoplay: 2500,
-					autoplayDisableOnInteraction : false,
+					autoplay: true,
 				});
 		</script>
 		<div class="doctorRecommend">

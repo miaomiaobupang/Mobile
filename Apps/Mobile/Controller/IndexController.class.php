@@ -55,5 +55,9 @@ class IndexController extends Controller{
 	public function diseaseIndex(){
 		$this->display();
 	}
+	//问答频道页
+	public function questionIndex(){
+		$this->display();
+	}
 	
 }
