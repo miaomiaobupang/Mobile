@@ -59,5 +59,9 @@ class IndexController extends Controller{
 	public function questionIndex(){
 		$this->display();
 	}
+	//问答列表页
+	public function questionList(){
+		$this->display();
+	}
 	
 }

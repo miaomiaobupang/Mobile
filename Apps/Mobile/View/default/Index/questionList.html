@@ -1,4 +1,8 @@
 <include file="Public/publicHeader" />
+<!--标准mui.css-->
+<link rel="stylesheet" href="__CSS__/mui.min.css">
+<link href="__CSS__/mui.picker.css" rel="stylesheet" />
+<link href="__CSS__/mui.poppicker.css" rel="stylesheet" />
 	<style>
 		/*主体部分开始*/
 		.mainBox{
@@ -8,31 +12,33 @@
 			background:#f0f0f0;
 			position:absolute;
 		}
-		.questionDiseaseKind{
+		.BreadcrumbTrail{
 			width:100%;
-			height:auto;
-			margin-top:12rem;
+			height:7rem;
 			background:#fff;
+			margin-top:12rem;
 		}
-		.questionKind{
-			width:20%;
-			height:22rem;
+		.breadLeftImg{
+			width:12%;
 			float:left;
-		}
-		.questionKindU{
-			width:100%;
-			height:15rem;
-			line-height:15rem;
+			height:7rem;
+			line-height:7rem;
+			font-size:3.5rem;
+			color:#999;
 			text-align:center;
-			margin-top:1rem;
+			margin-left:2rem;
 		}
-		.questionKindD{
-			width:100%;
-			height:4rem;
-			line-height:4rem;
-			text-align:center;
-			font-size:4rem;
-			color:#333;
+		.breadLeftText{
+			width:85%;
+			height:7rem;
+			line-height:7rem;
+			float:left;
+			font-size:3.5rem;
+			color:#999;
+			text-align:left;
+			overflow: hidden;
+			text-overflow:ellipsis;
+			white-space: nowrap;
 		}
 		.questionListBox{
 			width:100%;
@@ -128,106 +134,28 @@
 			-webkit-line-clamp: 2;
 			overflow: hidden;
 		}
-		
-		.quicklyQuestion{
-			width:100%;
-			height:auto;
-			padding:2rem;
-			margin-top:2rem;
-			background:#fff;
-		}
-		.quicklyQuestionTitle{
-			width:26rem;
-			height:7rem;
-			line-height:7rem;
-			font-size:4rem;
-			background:#009FA8;
-			border-radius:5rem;
-			color:#fff;
-			padding-left:2rem;
-		}
-		.quicklyQuestionTitleOne{
-			width:auto;
-			height:5rem;
-			line-height:5rem;
-			font-size:4rem;
-			margin-top:5rem;
-		}
-		.quicklyQuestionTitleIn{
-			width:100%;
-			height:auto;
-			margin-top:2rem;
-		}
-		.quicklyQuestionTitleInput{
+		.ScreeningConditions{
 			width:100%;
 			height:10rem;
-			border:0.1rem solid #999;
-			font-size:4rem;
-			text-indent:2rem;
 		}
-		.quicklyQuestionCntent{
-			width:100%;
-			height:20rem;
-			font-size:3.5rem;
-			text-indent:2rem;
-		}
-		.uploadDivsImages{
-			width:100%;
-			height:auto;
-			margin-top:5rem;
-		}
-		#uploadDivs{
-			float:left;
-		}
-		.uploadDivsDescribe{
-			width:40%;
-			padding:2rem 0 0 2rem;
-			height:auto;
-			line-height:5rem;
-			font-size:4rem;
-			color:#666;
-			float:left;
-			display: -webkit-box;
-			-webkit-box-orient: vertical;
-			-webkit-line-clamp: 7;
-			overflow: hidden;
-		}
-		.questionSubmitDiv{
-			width:85%;
+		.ScreeningConditionsList{
+			width:auto;
 			height:10rem;
 			line-height:10rem;
-			background:#009FA8;
-			color:#fff;
-			text-align:center;
 			font-size:4rem;
-			margin:0 auto;
-			margin-top:8rem;
-			border-radius:10rem;
+			color:#666;
+			background:#fff;
+			padding-left:2rem;
+			border-top:0.1rem solid #f0f0f0;
 		}
 	</style>
 	<div class="mainBox">
-		<div class="questionDiseaseKind">
-			<div class="questionKind">
-				<div class="questionKindU"><img src="__IMG__/20180626zhongliuke.png"></div>
-				<div class="questionKindD">肿瘤</div>
-			</div>
-			<div class="questionKind">
-				<div class="questionKindU"><img src="__IMG__/20180626xinneike.png"></div>
-				<div class="questionKindD">心脏疾病</div>
-			</div>
-			<div class="questionKind">
-				<div class="questionKindU"><img src="__IMG__/20180626shenjingwaike.png"></div>
-				<div class="questionKindD">神经疾病</div>
-			</div>
-			<div class="questionKind">
-				<div class="questionKindU"><img src="__IMG__/20180626zhongliuke.png"></div>
-				<div class="questionKindD">其他</div>
-			</div>
-			<div class="questionKind">
-				<div class="questionKindU"><img src="__IMG__/20180626shenjingwaike.png"></div>
-				<div class="questionKindD">神经疾病</div>
-			</div>
-			<div class="cl"></div>
+		<div class="BreadcrumbTrail">
+			<div class="breadLeftImg"><img src="__IMG__/20180627backtoindex.png"> 首页</div>
+			<div class="breadLeftText"> > 互动问答 > 肿瘤类</div>
+		</div>
+		<div class="ScreeningConditions">
+			<div id='showCityPicker' class="ScreeningConditionsList mui-btn mui-btn-block" >选择癌种 ></div>
 		</div>
 		<div class="questionListBox">
 			<div class="questionListTitle">
@@ -295,30 +223,18 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="quicklyQuestion">
-			<div class="quicklyQuestionTitle">快速提问<img style="margin-left:2rem;width:4rem;" src="__IMG__/20180704edit.png"></div>
-			<div class="quicklyQuestionTitleOne"><img style="margin-right:1rem;margin-top:-1rem;" src="__IMG__/20180704titleLine.png"> 疾病/症状</div>
-			<div class="quicklyQuestionTitleIn"><input class="quicklyQuestionTitleInput" type="text" name="title" value=""/></div>
-			<div class="quicklyQuestionTitleOne"><img style="margin-right:1rem;margin-top:-1rem;" src="__IMG__/20180704titleLine.png"> 详细描述您的病情及疑问</div>
-			<div class="quicklyQuestionTitleIn"><textarea class="quicklyQuestionCntent" name="content"/></textarea></div>
-			<div class="uploadDivsImages">
-				<div id="uploadDivs" data-style="2" data-upname="上传疾病部位或检查报告" data-upopacity="0.7" data-upback="#f0f0f0" data-upborder="#ececec" data-upcolor="#999" data-err="1" data-isbig="2" data-width="140" data-height="200" data-subheight="100" data-headsize="40" data-errsize="14" data-filename="authbook" data-filetype="4" ></div>
-				<div class="uploadDivsDescribe">可上传病症部位，检查报告，只有您和医生可以看到</div>
-				<div class="cl"></div>
-			</div>
-			<div class="questionSubmitDiv">创建问题</div>
 			<div style="width:100%;height:20rem;"></div>
 		</div>
 	</div>
-	<script src="__JS__/jquery.min.js"></script>
-	<script src="__JS__/jquery.form.js"></script>
-	<script src="__JS__/hopePublic.js"></script>
+	<script src="__JS__/mui.min.js"></script>
+	<script src="__JS__/mui.min.js"></script>
+	<script src="__JS__/mui.picker.js"></script>
+	<script src="__JS__/mui.poppicker.js"></script>
 	<script>
 		//动态改变导航栏信息
 		$('.oneNavDiv').html('<img src="__IMG__/20180627reback.png">');
 		$('.oneNavDiv').data('n',2);
-		$('.twoNavDiv').html('互动问答');
+		$('.twoNavDiv').html('肿瘤类问答');
 		//遍历切换问题
 		$('.questionList').each(function(){
 			var n = $(this).data('n');
@@ -344,11 +260,21 @@
 				$('.questionListBoxWait').show('fast');
 			}
 		});
-		//实例化上传图片
-		var urlss = "__URL__/index.php";
-		var url = "__URL__/";
-		fileUploadBody('uploadDivs',urlss,url);
-		$('#uploadDivs').css({'width':'60%','height':'35rem','margin-top':'2rem'});
+		//筛选联动-级联示例
+		var cityPicker = new $.PopPicker({
+			layer: 2
+		});
+		cityPicker.setData(cityData);
+		var showCityPickerButton = doc.getElementById('showCityPicker');
+		var cityResult = doc.getElementById('cityResult');
+		showCityPickerButton.addEventListener('tap', function(event) {
+			cityPicker.show(function(items) {
+				cityResult.innerText = "你选择的城市是:" + items[0].text + " " + items[1].text;
+				//返回 false 可以阻止选择框的关闭
+				//return false;
+			});
+		}, false);
+		//-----------------------------------------
 	</script> 
 <include file="Public/publicFooter"/>
 	

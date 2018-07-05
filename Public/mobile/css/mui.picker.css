@@ -1,0 +1,85 @@
+/ **
+ *阃夋嫨鍒〃〃掍欢
+ * varstion 2.0.0
+ *由后峰
+ * Houfeng@DCloud.io
+ * /
+
+.mui-picker {
+    background-color：#ddd;
+    位置：相对;
+    身高：200px;
+    溢出：隐藏;
+    border：solid 1px rgba（0,0,0,1.1）;
+    -webkit-user-select：none;
+    user-select：none;
+    box-sizing：border-box;
+}
+.mui-picker-inner {
+    box-sizing：border-box;
+    位置：相对;
+    宽度：100％;
+    身高：100％;
+    溢出：隐藏;
+    -webkit-mask-box-image：-webkit-linear-gradient（底部，透明，透明5％，＃ff 20％，＃ff 80％，透明95％，透明）;
+    -webkit-mask-box-image：线性渐变（顶部，透明，透明5％，＃ff 20％，＃ff 80％，透明95％，透明）;
+}
+的.mui-pciker列表，
+.mui-pciker-rule {
+    box-sizing：border-box;
+    填充：0px;
+    保证金：0px;
+    宽度：100％;
+    身高：36px;
+    line-height：36px;
+    位置：绝对;
+    左：0px;
+    最高：50％;
+    margin-top：-18px;
+}
+.mui-pciker-rule-bg {
+    z-index：0;
+    / * background-color：＃cfd5da; * /
+}
+.mui-pciker-rule-ft {
+    z-index：2;
+    border-top：solid 1px rgba（0,0,0,1.1）;
+    border-bottom：solid 1px rgba（0,0,0,1.1）;
+    / *  -  webkit-box-shadow：0px 0px 10px 0px rgba（0,0,0,0.1）; * /
+    / * box-shadow：0px 0px 10px 0px rgba（0,0,0,0.1）; * /
+}
+.mui-pciker-list {
+    z-index：1;
+    -webkit-transform-style：preserve-3d;
+    transform-style：preserve-3d;
+    -webkit-transform：perspective（1000px）rotateY（0deg）rotateX（0deg）;
+    transform：perspective（1000px）rotateY（0deg）rotateX（0deg）;
+}
+.mui-pciker-list li {
+    宽度：100％;
+    身高：100％;
+    位置：绝对;
+    text-align：center;
+    vertical-align：middle;
+    -webkit-backface-visibility：hidden;
+    背面 - 可见性：隐藏;
+    溢出：隐藏;
+    box-sizing：border-box;
+    font-size：16px;
+    font-family：“Helvetica Neue”，“Helvetica”，“Arial”，“sans-serif”;
+    颜色：＃888;
+    填充：0px 8px;
+    白色空间：nowrap;
+    -webkit-text-overflow：省略号;
+    文本溢出：省略号;
+    溢出：隐藏;
+    cursor：default;
+    能见度：隐藏;
+}
+.mui-pciker-list li.highlight，
+.mui-pciker-list li.visible {
+    能见度：可见;
+}
+.mui-pciker-list li.highlight {
+    颜色：＃222;
+}
