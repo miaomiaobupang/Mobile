@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="/Mobile/Public/Mobile/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/Mobile/Public/Mobile/css/font-awesome.css">
 	<script src="/Mobile/Public/Mobile/js/zepto.min.js"></script>
+	<script src="/Mobile/Public/Mobile/js/zepto.min.js"></script>
 	<link rel="stylesheet" href="/Mobile/Public/Mobile/css/swiper-4.3.3.min.css">
 	<script src="/Mobile/Public/Mobile/js/swiper-4.3.3.min.js"></script>
 	<style>
@@ -393,8 +394,13 @@
 			}
 		});
 		//筛选联动-级联示例
-		var cityPicker = 2342;
-		cityPicker.setData(cityData);
+		var cityPicker = new mui.PopPicker({
+			layer: 2
+		});
+		//定义疾病分类Json数组
+		var diseaseArr = <?php echo ($diseaseArr); ?>;
+		var diseaseJson = JSON.parse(diseaseArr);
+		cityPicker.setData(diseaseJson);
 		var showCityPickerButton = doc.getElementById('showCityPicker');
 		var cityResult = doc.getElementById('cityResult');
 		showCityPickerButton.addEventListener('tap', function(event) {

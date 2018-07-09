@@ -1,9 +1,10 @@
 <?php
+$configarr=require APP_PATH.'Common/Common/webconfig.php';
 $dbarr = array(
 	//'配置项'=>'配置值'
 		//临时数据库配置
 		'DB_DSN' => 'mysql://root:@127.0.0.1:3306/hopethree',
-		//'DB_DSN' => 'mysql://hopenoah_web:Hopenoahweb123@rdsnufga77geu1ywqi3xuo.mysql.rds.aliyuncs.com:3306/hopethree',
+		// 'DB_DSN' => 'mysql://hopenoah_web:Hopenoahweb123@rdsnufga77geu1ywqi3xuo.mysql.rds.aliyuncs.com:3306/hopethree',
 		'DB_TYPE' =>'mysqli',
 		// URL地址不区分大小写
 		'URL_CASE_INSENSITIVE' => true,

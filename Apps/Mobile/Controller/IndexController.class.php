@@ -11,11 +11,13 @@ use Think\Controller;
 // | Author: Davin <yulong@hopenoah.com>
 // +----------------------------------------------------------------------
 class IndexController extends Controller{
+	private $hope_disease_type;
 
 	/**
 	 * 构造方法
 	 */
 	public function __construct() {
+		$this->hope_disease_type = D('hope_disease_type');
 		parent::__construct();
 		header("Content-Type:text/html;charset=UTF-8");
 	}
@@ -61,6 +63,8 @@ class IndexController extends Controller{
 	}
 	//问答列表页
 	public function questionList(){
+		$diseaseArr = $this->hope_disease_type->where('level=1')->select();
+		dump($diseaseArr);
 		$this->display();
 	}
 	
