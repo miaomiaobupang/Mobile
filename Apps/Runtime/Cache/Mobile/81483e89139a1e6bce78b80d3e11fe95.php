@@ -3,12 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>超级医生</title>
-	<link rel="stylesheet" href="/Mobile/Public/Mobile/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/Mobile/Public/Mobile/css/font-awesome.css">
-	<script src="/Mobile/Public/Mobile/js/zepto.min.js"></script>
-	<script src="/Mobile/Public/Mobile/js/zepto.min.js"></script>
-	<link rel="stylesheet" href="/Mobile/Public/Mobile/css/swiper-4.3.3.min.css">
-	<script src="/Mobile/Public/Mobile/js/swiper-4.3.3.min.js"></script>
+	<link rel="stylesheet" href="/Public/Mobile/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/Public/Mobile/css/font-awesome.css">
+	<script src="/Public/Mobile/js/zepto.min.js"></script>
+	<script src="/Public/Mobile/js/zepto.min.js"></script>
+	<link rel="stylesheet" href="/Public/Mobile/css/swiper-4.3.3.min.css">
+	<script src="/Public/Mobile/js/swiper-4.3.3.min.js"></script>
 	<style>
 		/*共公头部结束*/
 		html{
@@ -127,15 +127,15 @@
 	</style>
 </head>
 	<div class="mobilePublicNav">
-		<div class="navDiv oneNavDiv" data-n="1"><img src="/Mobile/Public/Mobile/image/20180614logo.png"></div>
+		<div class="navDiv oneNavDiv" data-n="1"><img src="/Public/Mobile/image/20180614logo.png"></div>
 		<div class="navDiv twoNavDiv">400-052-0680</div>
-		<div class="navDiv threeNavDiv"><img src="/Mobile/Public/Mobile/image/20180614search.png" style="margin-right:2rem;"></div>
+		<div class="navDiv threeNavDiv"><img src="/Public/Mobile/image/20180614search.png" style="margin-right:2rem;"></div>
 		<div class="cl"></div>
 	</div>
 <!--标准mui.css-->
-<link rel="stylesheet" href="/Mobile/Public/Mobile/css/mui.min.css">
-<link href="/Mobile/Public/Mobile/css/mui.picker.css" rel="stylesheet" />
-<link href="/Mobile/Public/Mobile/css/mui.poppicker.css" rel="stylesheet" />
+<link rel="stylesheet" href="/Public/Mobile/css/mui.min.css">
+<link href="/Public/Mobile/css/mui.picker.css" rel="stylesheet" />
+<link href="/Public/Mobile/css/mui.poppicker.css" rel="stylesheet" />
 	<style>
 		/*主体部分开始*/
 		.mainBox{
@@ -284,7 +284,7 @@
 	</style>
 	<div class="mainBox">
 		<div class="BreadcrumbTrail">
-			<div class="breadLeftImg"><img src="/Mobile/Public/Mobile/image/20180627backtoindex.png"> 首页</div>
+			<div class="breadLeftImg"><img src="/Public/Mobile/image/20180627backtoindex.png"> 首页</div>
 			<div class="breadLeftText"> > 互动问答 > 肿瘤类</div>
 		</div>
 		<div class="ScreeningConditions">
@@ -330,28 +330,28 @@
 				<div class="questionListNices">
 					<div class="questionListNiceU">女性右腰部隐痛的原因是什么呢？</div>
 					<div class="questionListNiceD">
-						<div class="questionListNiceDL"><img src="/Mobile/Public/Mobile/image/20180626xinneike.png"></div>
+						<div class="questionListNiceDL"><img src="/Public/Mobile/image/20180626xinneike.png"></div>
 						<div class="questionListNiceDR">很高兴为您解答，病因很多，目前不能确定决定的患病原因，就应该要面对现实，去专业的医</div>
 					</div>
 				</div>
 				<div class="questionListNices">
 					<div class="questionListNiceU">女性右腰部隐痛的原因是什么呢？</div>
 					<div class="questionListNiceD">
-						<div class="questionListNiceDL"><img src="/Mobile/Public/Mobile/image/20180626xinneike.png"></div>
+						<div class="questionListNiceDL"><img src="/Public/Mobile/image/20180626xinneike.png"></div>
 						<div class="questionListNiceDR">很高兴为您解答，病因很多，目前不能确定决定的患病原因，就应该要面对现实，去专业的医</div>
 					</div>
 				</div>
 				<div class="questionListNices">
 					<div class="questionListNiceU">女性右腰部隐痛的原因是什么呢？</div>
 					<div class="questionListNiceD">
-						<div class="questionListNiceDL"><img src="/Mobile/Public/Mobile/image/20180626xinneike.png"></div>
+						<div class="questionListNiceDL"><img src="/Public/Mobile/image/20180626xinneike.png"></div>
 						<div class="questionListNiceDR">很高兴为您解答，病因很多，目前不能确定决定的患病原因，就应该要面对现实，去专业的医</div>
 					</div>
 				</div>
 				<div class="questionListNices">
 					<div class="questionListNiceU">女性右腰部隐痛的原因是什么呢？</div>
 					<div class="questionListNiceD">
-						<div class="questionListNiceDL"><img src="/Mobile/Public/Mobile/image/20180626xinneike.png"></div>
+						<div class="questionListNiceDL"><img src="/Public/Mobile/image/20180626xinneike.png"></div>
 						<div class="questionListNiceDR">很高兴为您解答，病因很多，目前不能确定决定的患病原因，就应该要面对现实，去专业的医</div>
 					</div>
 				</div>
@@ -359,13 +359,13 @@
 			<div style="width:100%;height:20rem;"></div>
 		</div>
 	</div>
-	<script src="/Mobile/Public/Mobile/js/jquery.min.js"></script>
-	<script src="/Mobile/Public/Mobile/js/mui.min.js"></script>
-	<script src="/Mobile/Public/Mobile/js/mui.picker.js"></script>
-	<script src="/Mobile/Public/Mobile/js/mui.poppicker.js"></script>
+	<script src="/Public/Mobile/js/jquery.min.js"></script>
+	<script src="/Public/Mobile/js/mui.min.js"></script>
+	<script src="/Public/Mobile/js/mui.picker.js"></script>
+	<script src="/Public/Mobile/js/mui.poppicker.js"></script>
 	<script>
 		//动态改变导航栏信息
-		$('.oneNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180627reback.png">');
+		$('.oneNavDiv').html('<img src="/Public/Mobile/image/20180627reback.png">');
 		$('.oneNavDiv').data('n',2);
 		$('.twoNavDiv').html('肿瘤类问答');
 		//遍历切换问题
@@ -414,19 +414,19 @@
 	</script> 
 	<div class="mobilePublicFot">
 		<div class="fotDiv fotDivBorder fotDivBorderNav" data-n="1">
-			<div class="fotDivFirst"><img src="/Mobile/Public/Mobile/image/20180614daohang.png" class="firstImg"></div>
+			<div class="fotDivFirst"><img src="/Public/Mobile/image/20180614daohang.png" class="firstImg"></div>
 			<div class="fotDivTwo">导航</div>
 		</div>
 		<div class="fotDiv fotDivBorder">
-			<div class="fotDivFirst"><img src="/Mobile/Public/Mobile/image/20180614dianhuazixun.png" class="firstImg"></div>
+			<div class="fotDivFirst"><img src="/Public/Mobile/image/20180614dianhuazixun.png" class="firstImg"></div>
 			<div class="fotDivTwo">电话咨询</div>
 		</div>
 		<div class="fotDiv fotDivBorder">
-			<div class="fotDivFirst"><img src="/Mobile/Public/Mobile/image/20180614zaixianzixun.png" class="firstImg"></div>
+			<div class="fotDivFirst"><img src="/Public/Mobile/image/20180614zaixianzixun.png" class="firstImg"></div>
 			<div class="fotDivTwo">在线咨询</div>
 		</div>
 		<div class="fotDiv">
-			<div class="fotDivFirst"><img src="/Mobile/Public/Mobile/image/20180614liuyan.png" class="firstImg"></div>
+			<div class="fotDivFirst"><img src="/Public/Mobile/image/20180614liuyan.png" class="firstImg"></div>
 			<div class="fotDivTwo">立即留言</div>
 		</div>
 	</div>
@@ -481,21 +481,21 @@
 				$('.twoNavDiv').css({'color':'#999'});
 				<!-- alert(publicN); -->
 				if(publicN == 2){
-					$('.oneNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180627newreback.png">');
+					$('.oneNavDiv').html('<img src="/Public/Mobile/image/20180627newreback.png">');
 				}else{
-					$('.oneNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180627newlogo.png">');
+					$('.oneNavDiv').html('<img src="/Public/Mobile/image/20180627newlogo.png">');
 				}
-				$('.threeNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180627newsearch.png" style="margin-right:2rem;">');
+				$('.threeNavDiv').html('<img src="/Public/Mobile/image/20180627newsearch.png" style="margin-right:2rem;">');
 				$('.mobilePublicNav').css({'box-shadow':'0rem 0rem 4rem rgba(220,220,220,1)'});
 			}else{
 				$('.mobilePublicNav').css({'background':'#009FA8'});
 				$('.twoNavDiv').css({'color':'#fff'});
 				if(publicN == 2){
-					$('.oneNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180627reback.png">');
+					$('.oneNavDiv').html('<img src="/Public/Mobile/image/20180627reback.png">');
 				}else{
-					$('.oneNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180614logo.png">');
+					$('.oneNavDiv').html('<img src="/Public/Mobile/image/20180614logo.png">');
 				}
-				$('.threeNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180614search.png" style="margin-right:2rem;">');
+				$('.threeNavDiv').html('<img src="/Public/Mobile/image/20180614search.png" style="margin-right:2rem;">');
 				
 			}
 		});
