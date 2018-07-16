@@ -1,9 +1,58 @@
 <include file="Public/publicHeader" />
 <!--标准mui.css-->
-<link rel="stylesheet" href="__CSS__/mui.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link href="__CSS__/mui.min.css" rel="stylesheet" />
+<link href="__CSS__/app.css" rel="stylesheet" />
 <link href="__CSS__/mui.picker.css" rel="stylesheet" />
 <link href="__CSS__/mui.poppicker.css" rel="stylesheet" />
 	<style>
+		/***********头部修改**************/
+			.mobilePublicNav{
+				height:5rem;
+				margin-left:0rem;
+			}
+			.navDiv{
+				height:5rem;
+				line-height:5rem;
+				font-size:2rem;
+			}
+			.oneNavDiv img{
+				height:2rem;
+			}
+			.threeNavDiv img{
+				height:2rem;
+			} 
+		/***********头部修改**************/
+		/***********面包屑修改**************/
+		.mainBox{
+			width:100%;
+			margin-left:0rem;
+		}
+		/***********面包屑修改**************/
+		/***********底部修改**************/
+		.mobilePublicFot{
+			height:6rem;
+		}
+		.fotDiv{
+			height:6rem;
+		}
+		.fotDivFirst{
+			height:3rem;
+		}
+		.fotDivFirst img{
+			height:2rem;
+		}
+		.firstImg{
+			margin-top:1rem;
+			margin-left:3.3rem;
+		}
+		.fotDivTwo{
+			height:3rem;
+			line-height:3rem;
+			font-size:1.5rem;
+		}
+		/***********底部修改**************/
 		/*主体部分开始*/
 		.mainBox{
 			width:102%;
@@ -14,26 +63,28 @@
 		}
 		.BreadcrumbTrail{
 			width:100%;
-			height:7rem;
+			height:3rem;
 			background:#fff;
-			margin-top:12rem;
+			margin-top:6rem;
 		}
 		.breadLeftImg{
 			width:12%;
 			float:left;
-			height:7rem;
-			line-height:7rem;
-			font-size:3.5rem;
+			height:3rem;
+			line-height:3rem;
 			color:#999;
 			text-align:center;
-			margin-left:2rem;
+			margin-left:1rem;
+		}
+		.breadLeftImg img{
+			width:1.5rem;
 		}
 		.breadLeftText{
-			width:85%;
-			height:7rem;
-			line-height:7rem;
+			width:80%;
+			height:3rem;
+			line-height:3rem;
 			float:left;
-			font-size:3.5rem;
+			font-size:1.5rem;
 			color:#999;
 			text-align:left;
 			overflow: hidden;
@@ -136,17 +187,40 @@
 		}
 		.ScreeningConditions{
 			width:100%;
-			height:10rem;
+			height:5rem;
 		}
 		.ScreeningConditionsList{
 			width:auto;
-			height:10rem;
-			line-height:10rem;
-			font-size:4rem;
+			line-height:5rem;
+			font-size:1.5rem;
 			color:#666;
 			background:#fff;
-			padding-left:2rem;
+			padding-left:1rem;
 			border-top:0.1rem solid #f0f0f0;
+		}
+		
+		.mui-pciker-list li{
+			font-size:0.8rem;
+			line-height:2rem;
+		}
+		.mui-pciker-list, .mui-pciker-rule{
+			height:7rem;
+			line-height:7rem;
+		}
+		.mui-poppicker-header .mui-btn{
+			font-size:4rem;
+		}
+		
+		.screenList span{
+			width:4rem;
+			display:inline-block;
+			text-align:center;
+			padding-right:0.4rem;
+			line-height:1.2rem;
+		}
+		.screenList img{
+			position:absolute;
+			right:0rem;
 		}
 	</style>
 	<div class="mainBox">
@@ -155,7 +229,9 @@
 			<div class="breadLeftText"> > 互动问答 > 肿瘤类</div>
 		</div>
 		<div class="ScreeningConditions">
-			<div id='showCityPicker' class="ScreeningConditionsList mui-btn mui-btn-block" >选择癌种 ></div>
+			<div id='showCityPicker' class="ScreeningConditionsList mui-btn mui-btn-block screenList" >
+				<span class="fl over2" id='cityResult' >选择癌种 ></span>
+			</div>
 		</div>
 		<div class="questionListBox">
 			<div class="questionListTitle">
@@ -226,10 +302,10 @@
 			<div style="width:100%;height:20rem;"></div>
 		</div>
 	</div>
-	<script src="__JS__/jquery.min.js"></script>
-	<script src="__JS__/mui.min.js"></script>
-	<script src="__JS__/mui.picker.js"></script>
-	<script src="__JS__/mui.poppicker.js"></script>
+	<script type="text/javascript" src="__JS__/zepto.min.js"></script>
+	<script type="text/javascript" src="__JS__/mui.min.js"></script>
+	<script type="text/javascript" src="__JS__/mui.picker.js"></script>
+	<script type="text/javascript" src="__JS__/mui.poppicker.js"></script>
 	<script>
 		//动态改变导航栏信息
 		$('.oneNavDiv').html('<img src="__IMG__/20180627reback.png">');
@@ -260,23 +336,36 @@
 				$('.questionListBoxWait').show('fast');
 			}
 		});
-		//筛选联动-级联示例
-		var cityPicker = new mui.PopPicker({
-			layer: 2
-		});
 		//定义疾病分类Json数组
-		var diseaseArr = {$diseaseArr};
-		var diseaseJson = JSON.parse(diseaseArr);
-		cityPicker.setData(diseaseJson);
-		var showCityPickerButton = doc.getElementById('showCityPicker');
-		var cityResult = doc.getElementById('cityResult');
-		showCityPickerButton.addEventListener('tap', function(event) {
-			cityPicker.show(function(items) {
-				cityResult.innerText = "你选择的城市是:" + items[0].text + " " + items[1].text;
-				//返回 false 可以阻止选择框的关闭
-				//return false;
+		var diseaseJson = {$diseaseArr};
+		//行业联动
+		(function($, doc) {
+			$.init();
+			$.ready(function() {
+				//级联示例
+				var cityPicker = new $.PopPicker({
+					layer: 2
+				}); 
+				cityPicker.setData(diseaseJson);
+				var showCityPickerButton = doc.getElementById('showCityPicker');
+				var cityResult = doc.getElementById('cityResult');
+				showCityPickerButton.addEventListener('tap', function(event) {
+					cityPicker.show(function(items) {
+						if(isNull(items[1].text)){
+							cityResult.innerText = items[1].text;
+						}else{
+							cityResult.innerText = items[0].text;
+						}
+						tradeid = items[1].id;
+						//返回 false 可以阻止选择框的关闭
+						//return false;
+					});
+				}, false); 
+
+				
 			});
-		}, false);
+		})(mui, document); 
+
 		//-----------------------------------------
 	</script> 
 <include file="Public/publicFooter"/>

@@ -63,8 +63,20 @@ class IndexController extends Controller{
 	}
 	//问答列表页
 	public function questionList(){
-		$diseaseArr = $this->hope_disease_type->where('level=1')->select();
-		dump($diseaseArr);
+		$diseaseArr = $this->hope_disease_type->where('level=1')->field('id,name')->select();
+		$dc = count($diseaseArr);
+		for($d=0;$d<$dc;$d++){
+			$diseaseArr[$d]['text'] = $diseaseArr[$d]['name'];
+			$diseaseArr[$d]['children'] = $this->hope_disease_type->where('fid='.$diseaseArr[$d]['id'])->field('id,name')->select();
+			$cc = count($diseaseArr[$d]['children']);
+			for($c=0;$c<$cc;$c++){
+				$diseaseArr[$d]['children'][$c]['text'] = $diseaseArr[$d]['children'][$c]['name'];
+				unset($diseaseArr[$d]['children'][$c]['name']);
+			}
+			unset($diseaseArr[$d]['name']);
+		}
+		$disonJSON = json_encode($diseaseArr);
+		$this->assign('diseaseArr',$disonJSON);
 		$this->display();
 	}
 	

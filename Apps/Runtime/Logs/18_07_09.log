@@ -1,0 +1,10 @@
+[ 2018-07-09T08:58:18+08:00 ] 192.168.1.21 /Mobile/index.php/Mobile/Index/questionList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+
+[ 2018-07-09T08:58:24+08:00 ] 192.168.1.21 /Mobile/index.php/Mobile/Index/questionList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+

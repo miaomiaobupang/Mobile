@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="/Mobile/Public/Mobile/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/Mobile/Public/Mobile/css/font-awesome.css">
 	<script src="/Mobile/Public/Mobile/js/zepto.min.js"></script>
+	<script src="/Mobile/Public/Mobile/js/zepto.min.js"></script>
 	<link rel="stylesheet" href="/Mobile/Public/Mobile/css/swiper-4.3.3.min.css">
 	<script src="/Mobile/Public/Mobile/js/swiper-4.3.3.min.js"></script>
 	<style>
