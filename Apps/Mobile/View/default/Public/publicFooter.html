@@ -18,12 +18,12 @@
 	</div>
 	<div class="mobilePublicFotNav">
 		<div class="mobilePublicFotNavTwo">
-			<div class="fotNavList">首页</div>
-			<div class="fotNavList">互动问答</div>
-			<div class="fotNavList">前沿资讯</div>
-			<div class="fotNavList">疾病知识</div>
-			<div class="fotNavList">权威医院</div>
-			<div class="fotNavList">超级专家</div>
+			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/index"><div class="fotNavList">首页</div></a>
+			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/questionIndex"><div class="fotNavList">互动问答</div></a>
+			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/newMessages"><div class="fotNavList">前沿资讯</div></a>
+			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/diseaseIndex"><div class="fotNavList">疾病知识</div></a>
+			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/hospitalIndex"><div class="fotNavList">权威医院</div></a>
+			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/expertIndex"><div class="fotNavList">超级专家</div></a>
 		</div>
 	</div>
 	<script>
@@ -33,17 +33,17 @@
 		$('.fotDivBorderNav').click(function(){
 			var n = $(this).data('n');
 			if(n==1){
-				$('.mobilePublicFotNav').show('fast');
+				$('.mobilePublicFotNav').slideDown('fast');
 				$(this).css({'backgroundColor':'#008c95'});
 				$(this).data('n',2);
 			}else if(n==2){
 				$(this).css({'backgroundColor':'#009FA8'});
-				$('.mobilePublicFotNav').hide('fast');
+				$('.mobilePublicFotNav').slideUp('fast');
 				$(this).data('n',1);
 			}
 		});
 		$('.mobilePublicFotNav').on("click",function(){
-			$('.mobilePublicFotNav').hide('fast');
+			$('.mobilePublicFotNav').slideUp('fast');
 			$('.fotDivBorderNav').css({'backgroundColor':'#009FA8'});
 			$('.fotDivBorderNav').data('n',1);
 		});
@@ -84,6 +84,20 @@
 				$('.threeNavDiv').html('<img src="__IMG__/20180614search.png" style="margin-right:2rem;">');
 				
 			}
+		});
+		//公共登录框
+		$(function(){
+			var loginTop = ($(window).height()/12-70)/2;
+			$('.loginPublicModelOne').css({'margin-top':loginTop+'rem','margin-left':'8%'});
+			$('.loginPublicModelOne').on('click',function(e){
+				e.stopPropagation();
+			});
+			$('.fotNavList').on('click',function(e){
+				e.stopPropagation();
+			});
+			$('.loginPublicModel').on('click',function(){
+				$('.loginPublicModel').css({'display':'none'});
+			});
 		});
 	</script>
 </html>

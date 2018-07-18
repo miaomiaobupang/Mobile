@@ -6,8 +6,8 @@
 	<link rel="stylesheet" href="/Mobile/Public/Mobile/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/Mobile/Public/Mobile/css/font-awesome.css">
 	<link rel="stylesheet" href="/Mobile/Public/Mobile/css/swiper-4.3.3.min.css">
-	<!-- <script src="/Mobile/Public/Mobile/js/zepto.min.js"></script> -->
 	<script src="/Mobile/Public/Mobile/js/swiper-4.3.3.min.js"></script>
+	<script src="/Mobile/Public/Mobile/js/jquery-3.3.1.min.js"></script>
 	<style>
 		/*共公头部结束*/
 		html{
@@ -54,6 +54,9 @@
 			width:50%;
 			text-align:center;
 			color:white;
+			overflow: hidden;
+			text-overflow:ellipsis;
+			white-space: nowrap;
 		}
 		.threeNavDiv{
 			text-align:right;
@@ -123,6 +126,81 @@
 		a{
 			text-decoration:none;
 		}
+		.fl{
+			float:left;
+		}
+		
+		/*********公共登录********/
+		.loginPublicModel{
+			width:100%;
+			height:100%;
+			position:absolute;
+			top:0rem;
+			left:0rem;
+			background:rgba(0,0,0,0.7);
+			z-index:1000;
+			position:fixed;
+			display:none;
+		}
+		.loginPublicModelOne{
+			width:84%;
+			height:70rem;
+			background:#fff;
+			border-radius:2rem;
+		}
+		.loginTitle{
+			width:100%;
+			height:12rem;
+			line-height:12rem;
+			text-align:center;
+			font-size:5rem;
+			color:#009FA8;
+			border-bottom:0.1rem solid #999;
+		}
+		.publicLoginDiv{
+			width:100%;
+			position:relative;
+			margin-top:5rem;
+		}
+		.publicLoginInput{
+			width:80%;
+			height:10rem;
+			line-height:10rem;
+			font-size:3.5rem;
+			color:#666;
+			border:0.1rem solid #999;
+			border-radius:10rem;
+			margin-left:10%;
+			padding:0 0 0 2rem;
+		}
+		.publicLoginQrcode{
+			position:absolute;
+			width:auto;
+			padding:0 1.5rem 0 1.5rem;
+			font-size:3.5rem;
+			background:#009FA8;
+			color:#fff;
+			height:6rem;
+			line-height:6rem;
+			text-align:center;
+			border-radius:10rem;
+			right:12%;
+			top:2rem;
+		}
+		.publicLoginSubmit{
+			width:80%;
+			height:10rem;
+			line-height:10rem;
+			font-size:5rem;
+			color:#666;
+			border-radius:10rem;
+			margin-left:10%;
+			margin-top:8rem;
+			background:#009FA8;
+			text-align:center;
+			color:#fff;
+		}
+		/*********公共登录********/
 	</style>
 </head>
 	<div class="mobilePublicNav">
@@ -130,6 +208,14 @@
 		<div class="navDiv twoNavDiv">400-052-0680</div>
 		<div class="navDiv threeNavDiv"><img src="/Mobile/Public/Mobile/image/20180614search.png" style="margin-right:2rem;"></div>
 		<div class="cl"></div>
+	</div>
+	<div class="loginPublicModel">
+		<div class="loginPublicModelOne">
+			<div class="loginTitle">快速登录</div>
+			<div class="publicLoginDiv"><input type="text" name="name" value="" class="publicLoginInput" id="loginName" placeholder="请输入手机号"/></div>
+			<div class="publicLoginDiv"><input type="text" name="name" value="" class="publicLoginInput" id="loginPass" placeholder="请输入验证码"/><div class="publicLoginQrcode">获取验证码</div></div>
+			<div class="publicLoginSubmit">快速登录</div>
+		</div>
 	</div>
 <!--标准mui.css-->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -187,9 +273,8 @@
 		/***********底部修改**************/
 		/*主体部分开始*/
 		.mainBox{
-			width:102%;
+			width:100%;
 			height:auto;
-			margin-left:-0.8rem;
 			background:#f0f0f0;
 			position:absolute;
 		}
@@ -197,19 +282,19 @@
 			width:100%;
 			height:3rem;
 			background:#fff;
-			margin-top:6rem;
+			margin-top:5rem;
 		}
 		.breadLeftImg{
-			width:12%;
+			width:20%;
 			float:left;
 			height:3rem;
 			line-height:3rem;
 			color:#999;
 			text-align:center;
-			margin-left:1rem;
+			font-size:1.5rem;
 		}
 		.breadLeftImg img{
-			width:1.5rem;
+			width:1.3rem;
 		}
 		.breadLeftText{
 			width:80%;
@@ -226,8 +311,8 @@
 		.questionListBox{
 			width:100%;
 			height:auto;
-			margin-top:2rem;
-			padding:2rem;
+			margin-top:1rem;
+			padding:1rem;
 			background:#fff;
 		}
 		.questionListTitle{
@@ -235,81 +320,84 @@
 			height:auto;
 		}
 		.questionList{
-			width:50%;
-			border:0.2rem solid #009FA8;
-			height:8rem;
-			line-height:8rem;
-			float:left;
-			color:#009FA8;
-			text-align:center;
-			font-size:4rem;
+			width: 50%;
+			border: 0.1rem solid #009FA8;
+			height: 4rem;
+			line-height: 4rem;
+			float: left;
+			color: #009FA8;
+			text-align: center;
+			font-size: 1.5rem;
 		}
 		.questionListBoxWait{
 			width:100%;
 			height:auto;
-			margin-top:2rem;
+			margin-top:1rem;
 			display:none;
 		}
 		.questionLists{
 			width:100%;
-			height:8rem;
-			line-height:8rem;
+			height:3rem;
+			line-height:3rem;
 		}
 		.questionListsL{
-			width:90%;
-			height:5rem;
-			line-height:5rem;
+			width:88%;
+			height:3rem;
+			line-height:3rem;
 			float:left;
 			color:#666;
-			font-size:4rem;
+			font-size:1.5rem;
 			overflow: hidden;
 			text-overflow:ellipsis;
 			white-space: nowrap;
 		}
 		.questionListsR{
-			width:10%;
-			height:5rem;
-			line-height:5rem;
+			width:12%;
+			height:3rem;
+			line-height:3rem;
 			float:left;
-			font-size:3rem;
+			font-size:1.2rem;
 			color:#666;
 		}
 		.questionListBoxNice{
 			width:100%;
 			height:auto;
-			margin-top:2rem;
+			margin-top:1rem;
 		}
 		.questionListNices{
 			width:100%;
-			height:20rem;
-			margin-top:2rem;
+			height:7rem;
+			margin-top:1rem;
 		}
 		.questionListNiceU{
 			width:100%;
-			height:7rem;
-			line-height:7rem;
-			font-size:4rem;
+			height:3rem;
+			line-height:3rem;
+			font-size:1.5rem;
 			display: -webkit-box;
 			-webkit-box-orient: vertical;
-			-webkit-line-clamp: 1;
+			-webkit-line-clamp: 2;
 			overflow: hidden;
 		}
 		.questionListNiceD{
 			width:100%;
-			height:13rem;
+			height:4rem;
 		}
 		.questionListNiceDL{
 			width:15%;
-			height:13rem;
-			line-height:13rem;
+			height:4rem;
+			line-height:4rem;
 			text-align:left;
 			float:left;
 		}
+		.questionListNiceDL img{
+			width:4rem;
+		}
 		.questionListNiceDR{
 			width:85%;
-			height:13rem;
-			line-height:6rem;
-			font-size:3.5rem;
+			height:4rem;
+			line-height:2rem;
+			font-size:1.2rem;
 			color:#666;
 			float:left;
 			display: -webkit-box;
@@ -322,29 +410,27 @@
 			height:5rem;
 		}
 		.ScreeningConditionsList{
-			width:auto;
-			line-height:5rem;
+			width:100%;
 			font-size:1.5rem;
 			color:#666;
 			background:#fff;
-			padding-left:1rem;
 			border-top:0.1rem solid #f0f0f0;
 		}
 		
 		.mui-pciker-list li{
-			font-size:0.8rem;
-			line-height:2rem;
+			font-size:1.5rem;
+			line-height:3rem;
 		}
 		.mui-pciker-list, .mui-pciker-rule{
-			height:7rem;
-			line-height:7rem;
+			height:3rem;
+			line-height:3rem;
 		}
 		.mui-poppicker-header .mui-btn{
-			font-size:4rem;
+			font-size:1.5rem;
 		}
 		
 		.screenList span{
-			width:4rem;
+			width:auto;
 			display:inline-block;
 			text-align:center;
 			padding-right:0.4rem;
@@ -354,6 +440,20 @@
 			position:absolute;
 			right:0rem;
 		}
+		/**********公共底部**********/
+		.mobilePublicFotNavTwo{
+			bottom:6rem;
+		}
+		.fotNavList{
+			height:4rem;
+			line-height:4rem;
+			font-size:1.5rem;
+			border-bottom:0.1rem solid rgba(220,220,220,1);
+		}
+		.mobilePublicFotNav{
+			top:4.2rem !important;
+		}
+		/**********公共底部**********/
 	</style>
 	<div class="mainBox">
 		<div class="BreadcrumbTrail">
@@ -362,7 +462,7 @@
 		</div>
 		<div class="ScreeningConditions">
 			<div id='showCityPicker' class="ScreeningConditionsList mui-btn mui-btn-block screenList" >
-				<span class="fl over2" id='cityResult' >选择癌种 ></span>
+				<span id='cityResult' >选择癌种</span>>
 			</div>
 		</div>
 		<div class="questionListBox">
@@ -372,10 +472,12 @@
 				<div class="cl"></div>
 			</div>
 			<div class="questionListBoxWait">
-				<div class="questionLists">
-					<div class="questionListsL">女性右腰部隐痛的原因是什么呢？</div>
-					<div class="questionListsR">6 回答</div>
-				</div>
+				<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/questionDetails">
+					<div class="questionLists">
+						<div class="questionListsL">女性右腰部隐痛的原因是什么呢？</div>
+						<div class="questionListsR">6 回答</div>
+					</div>
+				</a>
 				<div class="questionLists">
 					<div class="questionListsL">女性右腰部隐痛的原因是什么呢？</div>
 					<div class="questionListsR">6 回答</div>
@@ -402,13 +504,15 @@
 				</div>
 			</div>
 			<div class="questionListBoxNice">
-				<div class="questionListNices">
-					<div class="questionListNiceU">女性右腰部隐痛的原因是什么呢？</div>
-					<div class="questionListNiceD">
-						<div class="questionListNiceDL"><img src="/Mobile/Public/Mobile/image/20180626xinneike.png"></div>
-						<div class="questionListNiceDR">很高兴为您解答，病因很多，目前不能确定决定的患病原因，就应该要面对现实，去专业的医</div>
+				<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/questionDetails">
+					<div class="questionListNices">
+						<div class="questionListNiceU">女性右腰部隐痛的原因是什么呢？</div>
+						<div class="questionListNiceD">
+							<div class="questionListNiceDL"><img src="/Mobile/Public/Mobile/image/20180626xinneike.png"></div>
+							<div class="questionListNiceDR">很高兴为您解答，病因很多，目前不能确定决定的患病原因，就应该要面对现实，去专业的医</div>
+						</div>
 					</div>
-				</div>
+				</a>
 				<div class="questionListNices">
 					<div class="questionListNiceU">女性右腰部隐痛的原因是什么呢？</div>
 					<div class="questionListNiceD">
@@ -433,8 +537,9 @@
 			</div>
 			<div style="width:100%;height:20rem;"></div>
 		</div>
+	<div id="sssss" style="width:100px;height:100px;background:#333;display:none;">11111</div>
 	</div>
-	<script type="text/javascript" src="/Mobile/Public/Mobile/js/zepto.min.js"></script>
+	<script src="/Mobile/Public/Mobile/js/zepto.min.js"></script>
 	<script type="text/javascript" src="/Mobile/Public/Mobile/js/mui.min.js"></script>
 	<script type="text/javascript" src="/Mobile/Public/Mobile/js/mui.picker.js"></script>
 	<script type="text/javascript" src="/Mobile/Public/Mobile/js/mui.poppicker.js"></script>
@@ -468,37 +573,47 @@
 				$('.questionListBoxWait').show('fast');
 			}
 		});
+		//------------------行业筛选开始-----------------------
 		//定义疾病分类Json数组
-		var diseaseJson = <?php echo ($diseaseArr); ?>;
+		
+
+		eval('var diseaseJson = <?php echo ($diseaseArr); ?>');
+
+		var diseaseid = null;
 		//行业联动
-		(function($, doc) {
-			$.init();
-			$.ready(function() {
+		(function(mui, doc) {
+			mui.init();
+			mui.ready(function() {
 				//级联示例
-				var cityPicker = new $.PopPicker({
+				var cityPicker = new mui.PopPicker({
 					layer: 2
 				}); 
 				cityPicker.setData(diseaseJson);
 				var showCityPickerButton = doc.getElementById('showCityPicker');
 				var cityResult = doc.getElementById('cityResult');
 				showCityPickerButton.addEventListener('tap', function(event) {
-					cityPicker.show(function(items) {
-						if(isNull(items[1].text)){
-							cityResult.innerText = items[1].text;
-						}else{
-							cityResult.innerText = items[0].text;
-						}
-						tradeid = items[1].id;
+					cityPicker.show(function(items){
+						//获取疾病列表选中的数据
+						cityResult.innerHTML = items[1].text;
+						diseaseid = items[1].id;
 						//返回 false 可以阻止选择框的关闭
 						//return false;
 					});
+					
 				}, false); 
 
-				
 			});
 		})(mui, document); 
+		//点击弹框的确定按钮
+		$('body').on('tap','.mui-poppicker-btn-ok',function(){
+			alert(diseaseid);
+		});
 
-		//-----------------------------------------
+		//------------------行业筛选结束-----------------------
+
+
+				
+	
 	</script> 
 	<div class="mobilePublicFot">
 		<div class="fotDiv fotDivBorder fotDivBorderNav" data-n="1">
@@ -520,12 +635,12 @@
 	</div>
 	<div class="mobilePublicFotNav">
 		<div class="mobilePublicFotNavTwo">
-			<div class="fotNavList">首页</div>
-			<div class="fotNavList">互动问答</div>
+			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/index"><div class="fotNavList">首页</div></a>
+			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/questionIndex"><div class="fotNavList">互动问答</div></a>
 			<div class="fotNavList">前沿资讯</div>
-			<div class="fotNavList">疾病知识</div>
-			<div class="fotNavList">权威医院</div>
-			<div class="fotNavList">超级专家</div>
+			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/diseaseIndex"><div class="fotNavList">疾病知识</div></a>
+			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/hospitalIndex"><div class="fotNavList">权威医院</div></a>
+			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/expertIndex"><div class="fotNavList">超级专家</div></a>
 		</div>
 	</div>
 	<script>
@@ -535,17 +650,17 @@
 		$('.fotDivBorderNav').click(function(){
 			var n = $(this).data('n');
 			if(n==1){
-				$('.mobilePublicFotNav').show('fast');
+				$('.mobilePublicFotNav').slideDown('fast');
 				$(this).css({'backgroundColor':'#008c95'});
 				$(this).data('n',2);
 			}else if(n==2){
 				$(this).css({'backgroundColor':'#009FA8'});
-				$('.mobilePublicFotNav').hide('fast');
+				$('.mobilePublicFotNav').slideUp('fast');
 				$(this).data('n',1);
 			}
 		});
 		$('.mobilePublicFotNav').on("click",function(){
-			$('.mobilePublicFotNav').hide('fast');
+			$('.mobilePublicFotNav').slideUp('fast');
 			$('.fotDivBorderNav').css({'backgroundColor':'#009FA8'});
 			$('.fotDivBorderNav').data('n',1);
 		});
@@ -586,6 +701,20 @@
 				$('.threeNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180614search.png" style="margin-right:2rem;">');
 				
 			}
+		});
+		//公共登录框
+		$(function(){
+			var loginTop = ($(window).height()/12-70)/2;
+			$('.loginPublicModelOne').css({'margin-top':loginTop+'rem','margin-left':'8%'});
+			$('.loginPublicModelOne').on('click',function(e){
+				e.stopPropagation();
+			});
+			$('.fotNavList').on('click',function(e){
+				e.stopPropagation();
+			});
+			$('.loginPublicModel').on('click',function(){
+				$('.loginPublicModel').css({'display':'none'});
+			});
 		});
 	</script>
 </html>

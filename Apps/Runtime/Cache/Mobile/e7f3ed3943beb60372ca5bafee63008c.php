@@ -217,6 +217,11 @@
 			<div class="publicLoginSubmit">快速登录</div>
 		</div>
 	</div>
+<link rel="stylesheet" href="/Mobile/Public/Mobile/css/bootstrap.min.css">
+<link rel="stylesheet" href="/Mobile/Public/Mobile/css/font-awesome.css">
+<script src="/Mobile/Public/Mobile/js/zepto.min.js"></script>
+<link rel="stylesheet" href="/Mobile/Public/Mobile/css/swiper-4.3.3.min.css">
+<script src="/Mobile/Public/Mobile/js/swiper-4.3.3.min.js"></script>
 	<style>
 		/*主体部分开始*/
 		.mainBox{
@@ -225,29 +230,6 @@
 			margin-left:-0.8rem;
 			background:#f0f0f0;
 			position:absolute;
-		}
-		.swiperBanners{
-			margin-top:14rem;
-		}
-		.autoBanner{
-			width:100%;
-		}
-		.bannerText{
-			width:100%;
-			height:8rem;
-			line-height:8rem;
-			position:absolute;
-			bottom:0;
-			padding:2rem 2rem;
-			background:rgba(0,0,0,0.4);
-		}
-		.bannerText1{
-			margin-top:-1.5rem;
-			font-size:4rem;
-			color:#fff;
-			overflow: hidden;
-			text-overflow:ellipsis;
-			white-space: nowrap;
 		}
 		.countryDepartment{
 			width:100%;
@@ -292,7 +274,7 @@
 			font-size:3.5rem;
 		}
 		.doctorRecommend{
-			margin-top:2rem;
+			margin-top:14rem;
 			width:100%;
 			height:auto;
 		}
@@ -303,7 +285,7 @@
 			border-bottom:0.2rem solid rgba(220,220,220,1);
 		}
 		.doctorRecommendLine{
-			width:20rem;
+			width:auto;
 			height:9rem;
 			line-height:9rem;
 			font-size:4rem;
@@ -312,8 +294,42 @@
 		}
 		.hospitalRecommendTwo{
 			width:100%;
-			height:50rem;
 			background:#fff;
+		}
+		.hospitalRecommendList{
+			width:50%;
+			height:100%;
+			float:left;
+		}
+		.hospitalRecommendImg{
+			width:90%;
+			margin-left:5%;
+			margin-top:2rem;
+		}
+		.hospitalRecommendName{
+			width:90%;
+			margin-left:5%;
+			height:auto;
+			line-height:7.5rem;
+			font-size:4rem;
+			color: #009FA8;
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp: 2;
+			font-size:4rem;
+			overflow: hidden;
+		}
+		.hospitalRecommendAbstract{
+			width:90%;
+			margin-left:5%;
+			height:10rem;
+			line-height:5rem;
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp: 2;
+			font-size:3.5rem;
+			overflow: hidden;
+			color:#666;
 		}
 		.MessagePreList{
 			width:95%;
@@ -322,14 +338,15 @@
 			border-bottom:0.2rem solid rgba(220,220,220,1);
 		}
 		.MessagePreListLeft{
-			width:20%;
+			width:30%;
 			height:20rem;
 			float:left;
 		}
 		.MessagePreListRight{
-			width:78%;
+			width:67%;
 			height:20rem;
 			float:left;
+			margin-left:2rem;
 		}
 		.MessagePreListRightU{
 			height:5rem;
@@ -365,34 +382,39 @@
 			background:#fff;
 		}
 		.leftImgStyle{
-			width:15rem;
-			height:15rem;
-			border-radius:50%;
+			width:100%;
 		}
 	</style>
 	<div class="mainBox">
-		<div class="swiperBanners"> 
-			<div class="swiper-container">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide">
-						<a href=""><img class="autoBanner" src="/Mobile/Public/Mobile/image/20180615banner1.jpg"></a>
-						<div class="bannerText">
-							<div class="bannerText1">5种食物竟然是防癌圣品</div>
-						</div>
+		<div class="doctorRecommend">
+			<div class="doctorRecommendOne">
+				<div class="doctorRecommendLine" style="margin-left:2rem;color:#009FA8;font-size:5rem;">权威医院推荐</div>
+				<div class="doctorRecommendLine" style="float:right;color:#999;font-size:3.5rem;text-align:right;">更多<img style="position:relative;top:-0.3rem;margin-left:1rem;" src="/Mobile/Public/Mobile/image/20180615right.png"> &nbsp;&nbsp;</div>
+			</div>
+			<div class="hospitalRecommendTwo">
+				<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/hospitalList">
+					<div class="hospitalRecommendList">
+						<div class="hospitalRecommendDiv"><img class="hospitalRecommendImg" src="/Mobile/Public/Mobile/image/20180615banner2.jpg"></div>
+						<div class="hospitalRecommendName">美国麻省总医院</div>
+						<div class="hospitalRecommendAbstract">幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏</div>
 					</div>
-					<div class="swiper-slide">
-						<a href=""><img class="autoBanner" src="/Mobile/Public/Mobile/image/20180615banner2.jpg"></a>
-						<div class="bannerText">
-							<div class="bannerText1">5种食物竟然是防癌圣品</div>
-						</div>
-					</div>
-					<div class="swiper-slide">
-						<a href=""><img class="autoBanner" src="/Mobile/Public/Mobile/image/20180615banner3.jpg"></a>
-						<div class="bannerText">
-							<div class="bannerText1">5种食物竟然是防癌圣品</div>
-						</div>
-					</div>
+				</a>
+				<div class="hospitalRecommendList">
+					<div class="hospitalRecommendDiv"><img class="hospitalRecommendImg" src="/Mobile/Public/Mobile/image/20180615banner1.jpg"></div>
+					<div class="hospitalRecommendName">日本顺天堂大学附属医院</div>
+					<div class="hospitalRecommendAbstract">幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏</div>
 				</div>
+				<div class="hospitalRecommendList">
+					<div class="hospitalRecommendDiv"><img class="hospitalRecommendImg" src="/Mobile/Public/Mobile/image/20180615banner3.jpg"></div>
+					<div class="hospitalRecommendName">日本顺天堂大学附属医院</div>
+					<div class="hospitalRecommendAbstract">幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏</div>
+				</div>
+				<div class="hospitalRecommendList">
+					<div class="hospitalRecommendDiv"><img class="hospitalRecommendImg" src="/Mobile/Public/Mobile/image/20180615banner2.jpg"></div>
+					<div class="hospitalRecommendName">美国麻省总医院</div>
+					<div class="hospitalRecommendAbstract">幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏</div>
+				</div>
+				<div class="cl"></div>
 			</div>
 		</div> 
 		<div class="countryDepartment"> 
@@ -403,7 +425,7 @@
 				<div class="cl"></div>
 			</div>
 			<div class="departments" data-n="1">
-				<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/expertList"><div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626zhongliuke.png"></div><div class="departmentTitle">肿瘤科</div></div></a>
+				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626zhongliuke.png"></div><div class="departmentTitle">肿瘤科</div></div>
 				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626shenjingwaike.png"></div><div class="departmentTitle">神经外科</div></div>
 				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180628wuguanke.png"></div><div class="departmentTitle">五官科</div></div>
 				<div class="department"><div class="departmentImg"><img src="/Mobile/Public/Mobile/image/20180626yanke.png"></div><div class="departmentTitle">眼科</div></div>
@@ -419,17 +441,17 @@
 				<div class="cl"></div>
 			</div>
 		</div> 
-		<div class="doctorRecommend">
+		<div class="doctorRecommend" style="margin-top:2rem;">
 			<div class="doctorRecommendOne">
-				<div class="doctorRecommendLine" style="margin-left:2rem;color:#009FA8;font-size:5rem;">最新专家</div>
-				<div class="doctorRecommendLine" style="float:right;color:#999;font-size:3.5rem;text-align:right;">更多<img style="position:relative;top:0.3rem;margin-left:1rem;" src="/Mobile/Public/Mobile/image/20180615right.png"> &nbsp;&nbsp;</div>
+				<div class="doctorRecommendLine" style="margin-left:2rem;color:#009FA8;font-size:5rem;">最新医院</div>
+				<div class="doctorRecommendLine" style="float:right;color:#999;font-size:3.5rem;text-align:right;">更多<img style="position:relative;top:-0.3rem;margin-left:1rem;" src="/Mobile/Public/Mobile/image/20180615right.png"> &nbsp;&nbsp;</div>
 			</div>  
 			<div class="hospitalRecommendTwo" style="height:115rem;"> 
 				<div style="width:100%;height:2rem;"></div>
 				<div class="MessagePreList">
-					<div class="MessagePreListLeft"><img class="leftImgStyle" src="/Mobile/Public/Mobile/image/20180627muneiyaming.png"></div>
+					<div class="MessagePreListLeft"><img class="leftImgStyle" src="/Mobile/Public/Mobile/image/20180615banner2.jpg"></div>
 					<div class="MessagePreListRight">
-						<div class="MessagePreListRightU">幕内雅敏</div>
+						<div class="MessagePreListRightU">美国麻省总医院</div>
 						<div class="MessagePreListRightB">幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏</div>
 					</div>
 					<div class="cl"></div>
@@ -438,7 +460,7 @@
 				<div class="MessagePreList">
 					<div class="MessagePreListLeft"><img class="leftImgStyle" src="/Mobile/Public/Mobile/image/20180615banner3.jpg"></div>
 					<div class="MessagePreListRight">
-						<div class="MessagePreListRightU">幕内雅敏</div>
+						<div class="MessagePreListRightU">日本顺天堂大学附属医院</div>
 						<div class="MessagePreListRightB">幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏</div>
 					</div>
 					<div class="cl"></div>
@@ -447,7 +469,7 @@
 				<div class="MessagePreList">
 					<div class="MessagePreListLeft"><img class="leftImgStyle" src="/Mobile/Public/Mobile/image/20180615banner1.jpg"></div>
 					<div class="MessagePreListRight">
-						<div class="MessagePreListRightU">幕内雅敏</div>
+						<div class="MessagePreListRightU">日本顺天堂大学附属医院</div>
 						<div class="MessagePreListRightB">幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏</div>
 					</div>
 					<div class="cl"></div>
@@ -456,14 +478,14 @@
 				<div class="MessagePreList">
 					<div class="MessagePreListLeft"><img class="leftImgStyle" src="/Mobile/Public/Mobile/image/20180615banner2.jpg"></div>
 					<div class="MessagePreListRight">
-						<div class="MessagePreListRightU">幕内雅敏</div>
+						<div class="MessagePreListRightU">美国麻省总医院</div>
 						<div class="MessagePreListRightB">幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏</div>
 					</div>
 					<div class="cl"></div>
 				</div> 
 				<div style="width:100%;height:2rem;"></div>
 				<div class="MessagePreList">
-					<div class="MessagePreListLeft"><img class="leftImgStyle" src="/Mobile/Public/Mobile/image/20180615banner3.jpg"></div>
+					<div class="MessagePreListLeft"><img class="leftImgStyle" src="/Mobile/Public/Mobile/image/20180615banner1.jpg"></div>
 					<div class="MessagePreListRight">
 						<div class="MessagePreListRightU">幕内雅敏</div>
 						<div class="MessagePreListRightB">幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏幕内雅敏</div>
@@ -480,10 +502,6 @@
 		</div> 
 	</div>
 	<script>
-		//轮播图
-		var mySwiper = new Swiper('.swiper-container',{
-				autoplay: true,
-			});
 		//国家科室切换
 		$('.country').each(function(){
 			var n = $(this).data('n');
@@ -502,7 +520,7 @@
 		//动态改变导航栏信息
 		$('.oneNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180627reback.png">');
 		$('.oneNavDiv').data('n',2);
-		$('.twoNavDiv').html('超级专家');
+		$('.twoNavDiv').html('权威医院');
 	</script> 
 	<div class="mobilePublicFot">
 		<div class="fotDiv fotDivBorder fotDivBorderNav" data-n="1">

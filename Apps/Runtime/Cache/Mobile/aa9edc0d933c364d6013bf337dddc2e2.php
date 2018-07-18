@@ -5,9 +5,9 @@
 	<title>超级医生</title>
 	<link rel="stylesheet" href="/Mobile/Public/Mobile/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/Mobile/Public/Mobile/css/font-awesome.css">
-	<script src="/Mobile/Public/Mobile/js/zepto.min.js"></script>
 	<link rel="stylesheet" href="/Mobile/Public/Mobile/css/swiper-4.3.3.min.css">
 	<script src="/Mobile/Public/Mobile/js/swiper-4.3.3.min.js"></script>
+	<script src="/Mobile/Public/Mobile/js/jquery-3.3.1.min.js"></script>
 	<style>
 		/*共公头部结束*/
 		html{
@@ -54,6 +54,9 @@
 			width:50%;
 			text-align:center;
 			color:white;
+			overflow: hidden;
+			text-overflow:ellipsis;
+			white-space: nowrap;
 		}
 		.threeNavDiv{
 			text-align:right;
@@ -123,6 +126,81 @@
 		a{
 			text-decoration:none;
 		}
+		.fl{
+			float:left;
+		}
+		
+		/*********公共登录********/
+		.loginPublicModel{
+			width:100%;
+			height:100%;
+			position:absolute;
+			top:0rem;
+			left:0rem;
+			background:rgba(0,0,0,0.7);
+			z-index:1000;
+			position:fixed;
+			display:none;
+		}
+		.loginPublicModelOne{
+			width:84%;
+			height:70rem;
+			background:#fff;
+			border-radius:2rem;
+		}
+		.loginTitle{
+			width:100%;
+			height:12rem;
+			line-height:12rem;
+			text-align:center;
+			font-size:5rem;
+			color:#009FA8;
+			border-bottom:0.1rem solid #999;
+		}
+		.publicLoginDiv{
+			width:100%;
+			position:relative;
+			margin-top:5rem;
+		}
+		.publicLoginInput{
+			width:80%;
+			height:10rem;
+			line-height:10rem;
+			font-size:3.5rem;
+			color:#666;
+			border:0.1rem solid #999;
+			border-radius:10rem;
+			margin-left:10%;
+			padding:0 0 0 2rem;
+		}
+		.publicLoginQrcode{
+			position:absolute;
+			width:auto;
+			padding:0 1.5rem 0 1.5rem;
+			font-size:3.5rem;
+			background:#009FA8;
+			color:#fff;
+			height:6rem;
+			line-height:6rem;
+			text-align:center;
+			border-radius:10rem;
+			right:12%;
+			top:2rem;
+		}
+		.publicLoginSubmit{
+			width:80%;
+			height:10rem;
+			line-height:10rem;
+			font-size:5rem;
+			color:#666;
+			border-radius:10rem;
+			margin-left:10%;
+			margin-top:8rem;
+			background:#009FA8;
+			text-align:center;
+			color:#fff;
+		}
+		/*********公共登录********/
 	</style>
 </head>
 	<div class="mobilePublicNav">
@@ -130,6 +208,14 @@
 		<div class="navDiv twoNavDiv">400-052-0680</div>
 		<div class="navDiv threeNavDiv"><img src="/Mobile/Public/Mobile/image/20180614search.png" style="margin-right:2rem;"></div>
 		<div class="cl"></div>
+	</div>
+	<div class="loginPublicModel">
+		<div class="loginPublicModelOne">
+			<div class="loginTitle">快速登录</div>
+			<div class="publicLoginDiv"><input type="text" name="name" value="" class="publicLoginInput" id="loginName" placeholder="请输入手机号"/></div>
+			<div class="publicLoginDiv"><input type="text" name="name" value="" class="publicLoginInput" id="loginPass" placeholder="请输入验证码"/><div class="publicLoginQrcode">获取验证码</div></div>
+			<div class="publicLoginSubmit">快速登录</div>
+		</div>
 	</div>
 	<style>
 		/*主体部分开始*/
@@ -276,7 +362,7 @@
 			background:#009FA8;
 			border-radius:5rem;
 			color:#fff;
-			padding-left:2rem;
+			padding-left:3rem;
 		}
 		.quicklyQuestionTitleOne{
 			width:auto;
@@ -339,10 +425,12 @@
 	</style>
 	<div class="mainBox">
 		<div class="questionDiseaseKind">
-			<div class="questionKind">
-				<div class="questionKindU"><img src="/Mobile/Public/Mobile/image/20180626zhongliuke.png"></div>
-				<div class="questionKindD">肿瘤</div>
-			</div>
+			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/questionList">
+				<div class="questionKind">
+					<div class="questionKindU"><img src="/Mobile/Public/Mobile/image/20180626zhongliuke.png"></div>
+					<div class="questionKindD">肿瘤</div>
+				</div>
+			</a>
 			<div class="questionKind">
 				<div class="questionKindU"><img src="/Mobile/Public/Mobile/image/20180626xinneike.png"></div>
 				<div class="questionKindD">心脏疾病</div>
@@ -443,7 +531,6 @@
 			<div style="width:100%;height:20rem;"></div>
 		</div>
 	</div>
-	<script src="/Mobile/Public/Mobile/js/jquery.min.js"></script>
 	<script src="/Mobile/Public/Mobile/js/jquery.form.js"></script>
 	<script src="/Mobile/Public/Mobile/js/hopePublic.js"></script>
 	<script>
@@ -477,10 +564,14 @@
 			}
 		});
 		//实例化上传图片
-		var urlss = "/Mobile/index.php/Mobile/Index/index.php";
-		var url = "/Mobile/index.php/Mobile/Index/";
+		var urlss = "/Mobile/index.php?s=/Mobile/Index/index.php";
+		var url = "/Mobile/index.php?s=/Mobile/Index/";
 		fileUploadBody('uploadDivs',urlss,url);
 		$('#uploadDivs').css({'width':'60%','height':'35rem','margin-top':'2rem'});
+		//创建问题
+		$('.questionSubmitDiv').click(function(){
+			$('.loginPublicModel').css({'display':'block'});
+		});
 	</script> 
 	<div class="mobilePublicFot">
 		<div class="fotDiv fotDivBorder fotDivBorderNav" data-n="1">
@@ -502,12 +593,12 @@
 	</div>
 	<div class="mobilePublicFotNav">
 		<div class="mobilePublicFotNavTwo">
-			<div class="fotNavList">首页</div>
-			<div class="fotNavList">互动问答</div>
+			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/index"><div class="fotNavList">首页</div></a>
+			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/questionIndex"><div class="fotNavList">互动问答</div></a>
 			<div class="fotNavList">前沿资讯</div>
-			<div class="fotNavList">疾病知识</div>
-			<div class="fotNavList">权威医院</div>
-			<div class="fotNavList">超级专家</div>
+			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/diseaseIndex"><div class="fotNavList">疾病知识</div></a>
+			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/hospitalIndex"><div class="fotNavList">权威医院</div></a>
+			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/expertIndex"><div class="fotNavList">超级专家</div></a>
 		</div>
 	</div>
 	<script>
@@ -517,17 +608,17 @@
 		$('.fotDivBorderNav').click(function(){
 			var n = $(this).data('n');
 			if(n==1){
-				$('.mobilePublicFotNav').show('fast');
+				$('.mobilePublicFotNav').slideDown('fast');
 				$(this).css({'backgroundColor':'#008c95'});
 				$(this).data('n',2);
 			}else if(n==2){
 				$(this).css({'backgroundColor':'#009FA8'});
-				$('.mobilePublicFotNav').hide('fast');
+				$('.mobilePublicFotNav').slideUp('fast');
 				$(this).data('n',1);
 			}
 		});
 		$('.mobilePublicFotNav').on("click",function(){
-			$('.mobilePublicFotNav').hide('fast');
+			$('.mobilePublicFotNav').slideUp('fast');
 			$('.fotDivBorderNav').css({'backgroundColor':'#009FA8'});
 			$('.fotDivBorderNav').data('n',1);
 		});
@@ -568,6 +659,20 @@
 				$('.threeNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180614search.png" style="margin-right:2rem;">');
 				
 			}
+		});
+		//公共登录框
+		$(function(){
+			var loginTop = ($(window).height()/12-70)/2;
+			$('.loginPublicModelOne').css({'margin-top':loginTop+'rem','margin-left':'8%'});
+			$('.loginPublicModelOne').on('click',function(e){
+				e.stopPropagation();
+			});
+			$('.fotNavList').on('click',function(e){
+				e.stopPropagation();
+			});
+			$('.loginPublicModel').on('click',function(){
+				$('.loginPublicModel').css({'display':'none'});
+			});
 		});
 	</script>
 </html>

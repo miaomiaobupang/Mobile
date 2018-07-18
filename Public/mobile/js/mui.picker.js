@@ -280,7 +280,6 @@
 					"index": index,
 					"item": item
 				});
-				//console.log('change:' + index);
 			}
 			self.lastIndex = index;
 			typeof force === 'function' && force();

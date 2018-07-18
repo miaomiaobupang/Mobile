@@ -144,7 +144,7 @@
 			background:#009FA8;
 			border-radius:5rem;
 			color:#fff;
-			padding-left:2rem;
+			padding-left:3rem;
 		}
 		.quicklyQuestionTitleOne{
 			width:auto;
@@ -207,10 +207,12 @@
 	</style>
 	<div class="mainBox">
 		<div class="questionDiseaseKind">
-			<div class="questionKind">
-				<div class="questionKindU"><img src="__IMG__/20180626zhongliuke.png"></div>
-				<div class="questionKindD">肿瘤</div>
-			</div>
+			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/questionList">
+				<div class="questionKind">
+					<div class="questionKindU"><img src="__IMG__/20180626zhongliuke.png"></div>
+					<div class="questionKindD">肿瘤</div>
+				</div>
+			</a>
 			<div class="questionKind">
 				<div class="questionKindU"><img src="__IMG__/20180626xinneike.png"></div>
 				<div class="questionKindD">心脏疾病</div>
@@ -311,7 +313,6 @@
 			<div style="width:100%;height:20rem;"></div>
 		</div>
 	</div>
-	<script src="__JS__/jquery.min.js"></script>
 	<script src="__JS__/jquery.form.js"></script>
 	<script src="__JS__/hopePublic.js"></script>
 	<script>
@@ -349,6 +350,10 @@
 		var url = "__URL__/";
 		fileUploadBody('uploadDivs',urlss,url);
 		$('#uploadDivs').css({'width':'60%','height':'35rem','margin-top':'2rem'});
+		//创建问题
+		$('.questionSubmitDiv').click(function(){
+			$('.loginPublicModel').css({'display':'block'});
+		});
 	</script> 
 <include file="Public/publicFooter"/>
 	

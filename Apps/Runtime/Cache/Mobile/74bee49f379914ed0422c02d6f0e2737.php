@@ -226,233 +226,310 @@
 			background:#f0f0f0;
 			position:absolute;
 		}
-		.diseaseSearch{
+		.BreadcrumbTrail{
 			width:100%;
-			height:12rem;
-			line-height:12rem;
-			text-align:center;
-			margin-top:14rem;
+			height:7rem;
 			background:#fff;
-			padding-top:2rem;
+			margin-top:12rem;
 		}
-		.searchPublicBody{
-			width:80%;
-			margin-left:10%;
-			height:8rem;
-			line-height:8rem;
-			border-radius:10rem;
-			background:#f0f0f0;
-		}
-		.searchPublicIco{
-			margin:-1rem 0 0 -5rem;
-		}
-		#diseaseKeyWords{
-			width:80%;
-			height:8rem;
-			line-height:8rem;
-			border-radius:10rem;
-			border:0.1rem solid #f0f0f0;
-			background:#f0f0f0;
+		.breadLeftImg{
+			width:12%;
+			float:left;
+			height:7rem;
+			line-height:7rem;
 			font-size:3.5rem;
-			color:#666;
+			color:#999;
+			text-align:center;
+			margin-left:2rem;
 		}
-		.swiperBanners{
-			margin-top:2rem;
-		}
-		.autoBanner{
-			width:100%;
-		}
-		.bannerText{
-			width:100%;
-			height:8rem;
-			line-height:8rem;
-			position:absolute;
-			bottom:0;
-			padding:2rem 2rem;
-			background:rgba(0,0,0,0.4);
-		}
-		.bannerText1{
-			margin-top:-1.5rem;
-			font-size:4rem;
-			color:#fff;
+		.breadLeftText{
+			width:85%;
+			height:7rem;
+			line-height:7rem;
+			float:left;
+			font-size:3.5rem;
+			color:#999;
+			text-align:left;
 			overflow: hidden;
 			text-overflow:ellipsis;
 			white-space: nowrap;
 		}
-		.doctorRecommend{
+		.questionInfo{
 			margin-top:2rem;
 			width:100%;
 			height:auto;
-		}
-		.doctorRecommendOne{
-			width:100%;
-			height:9rem;
 			background:#fff;
-			border-bottom:0.2rem solid rgba(220,220,220,1);
+			padding:0 0 3rem 0;
 		}
-		.doctorRecommendLine{
-			width:20rem;
-			height:9rem;
-			line-height:9rem;
+		.questionInfoLine{
+			width:100%;
+			height:auto;
+			padding-left:2rem;
+		}
+		.questionName{
+			width:100%;
+			height:7rem;
+			line-height:7rem;
 			font-size:4rem;
-			text-align:center;
+			overflow:hidden;
+			text-overflow:ellipsis;
+			white-space:nowrap;
+		}
+		.questionNameinfo span{
+			color:#999;
+			font-size:3.5rem;
+			height:5rem;
+			line-height:5rem;
+		}
+		.questionContent{	
+			width:100%;
+			line-height:5rem;
+			font-size:3.5rem;
+			padding:1rem 0 1rem 0;
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp: 3;
+			overflow: hidden;
+		}
+		.questionTags{
+			width:100%;
+			height:7rem;
+			padding:1rem 0 1rem 0;
+			line-height:5rem;
+		}
+		.questionTagsL{
+			width:77%;
 			float:left;
 		}
-		.diseaseLink{
-			width:100%;
-			padding:0rem 2rem 2rem 2rem;
-			height:auto;
-			background:#fff;
-		}
-		.hotDisease{
-			width:auto;
+		.questionTagsR{
+			width:23%;
+			float:left;
 			height:6rem;
 			line-height:6rem;
 			text-align:center;
-			border:0.2rem solid #f0f0f0;
-			padding:0 1rem 0 1rem;
-			float:left;
 			font-size:3.5rem;
-			color:#333;
-			margin-right:2rem;
-			margin-top:2rem;
+			background:#009FA8;
+			color:#fff;
+			border-radius:6rem;
+			padding:0 1rem 0 1rem;
 		}
-		.diseaseLinkInfo{
+		.questionTagList{
+			width:auto;
+			height:6rem;
+			line-height:6rem;
+			font-size:3.5rem;
+			background:rgba(249,249,249,1);
+			border-radius:4rem;
+			border:0.1rem solid #999;
+			float:left;
+			text-align:center;
+			padding:0 1.5rem 0 1.5rem;
+			margin-right:2rem;
+		}
+		.answersInfo{
 			width:100%;
 			height:auto;
 			padding:2rem;
+			margin-top:2rem;
 			background:#fff;
 		}
-		.diseaseLinkInfo li{
-			width:50%;
+		.answersInfoTitle{
+			width:auto;
 			height:5rem;
 			line-height:5rem;
-			font-size:4rem;
+		}
+		.answerImgText{
 			float:left;
-			padding-left:-2rem;
+			font-size:5rem;
+		}
+		.answerImgText img{
+			margin-top:-1rem;
+		}
+		.answersInfoList{
+			width:100%;
+			height:auto;
+			border-bottom:0.2rem solid #DCDCDC;
 			margin-top:2rem;
 		}
-		.diseaseLinkInfo:after{
-			content:'.';
-			clear:both;
+		.answersInfoPerson{
+			width:100%;
+			height:12rem;
+		}
+		.answersInfoPersonL{
+			width:20%;
+			height:12rem;
+			line-height:12rem;
+			text-align:center;
+			float:left;
+		}
+		.answersInfoPersonL img{
+			width:10rem;
+		}
+		.answersInfoPersonR{
+			width:80%;
+			height:12rem;
+			float:left;
+		}
+		.answersInfoPersonRU{
+			width:100%;
+			height:5rem;
+			line-height:5rem;
+			margin-top:2rem;
+			font-size:4rem;
+		}
+		.answersInfoPersonRD{
+			width:100%;
+			height:4rem;
+			line-height:4rem;
+			font-size:3.5rem;
+			color:#999;
+		}
+		.answersInfoContent{
+			width:100%;
+			height:auto;
+			line-height:4rem;
+			font-size:3.5rem;
+			margin-top:2rem;
+		}
+		.myAnswersInfo{
+			width:100%;
+			height:40rem;
+			padding:2rem;
+			margin-top:2rem;
+			background:#fff;
+			display:none;
+		}
+		.myanswersInfoTitle{
+			width:auto;
+			height:5rem;
+			line-height:5rem;
+		}
+		.myanswerTextDiv{
+			width:100%;
+			height:30rem;
+			border:0.1rem solid #999;
+			margin-top:1rem;
+		}
+		.myanswerTextarea{
+			width:100%;
+			height:20rem;
+			line-height:5rem;
+			border:0rem solid #fff;
+			font-size:4rem;
+			text-indent:2rem;
+		}
+		.myanswerSubmit{
+			width:15%;
+			height:6rem;
+			line-height:6rem;
+			background:#009FA8;
+			color:#fff;
+			text-align:center;
+			font-size:4rem;
+			float:right;
+			border-radius:6rem;
+			margin:2rem 2rem 0 0;
 		}
 	</style>
 	<div class="mainBox">
-		<div class="diseaseSearch">
-			<div class="searchPublicBody">
-			<img class="searchPublicIco" src="/Mobile/Public/Mobile/image/20180703searchico.png">
-			<input type="text" name="keywords" value="" id="diseaseKeyWords" placeholder="请输入疾病"/>
-			</div>
-		</div> 
-		<div class="swiperBanners"> 
-			<div class="swiper-container disSwiperOne">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide">
-						<a href=""><img class="autoBanner" src="/Mobile/Public/Mobile/image/20180615banner1.jpg"></a>
-						<div class="bannerText">
-							<div class="bannerText1">5种食物竟然是防癌圣品</div>
+		<div class="BreadcrumbTrail">
+			<div class="breadLeftImg"><img src="/Mobile/Public/Mobile/image/20180627backtoindex.png"> 首页</div>
+			<div class="breadLeftText"> > 互动问答 > 肿瘤类 > 女生右腰部隐痛的原因是什么呢?</div>
+		</div>
+		<div class="questionInfo">
+			<div class="questionInfoLine">
+				<div class="fl" style="width:6%;height:7rem;line-height:7rem;"><img src="/Mobile/Public/Mobile/image/20180718questioninfo.png"></div>
+				<div class="fl" style="width:90%;margin-left:1rem;">
+					<div class="questionName">女生右腰部隐痛的原因是什么呢?</div>
+					<div class="questionNameinfo"><span>女</span>&nbsp;<span>43岁</span>&nbsp;&nbsp;<span>发病时间：</span>&nbsp;<span>不清楚</span></div>
+					<div class="questionContent">病情描述：右下腹隐痛，去医院做检查也没有查出什么问题，这个是什么原因呢，求医生解答。</div>
+					<div class="questionNameinfo"><span>蘑菇爬过慢时光</span>&nbsp;|&nbsp;<span>2018-7-18</span></div>
+					<div class="questionTags">
+						<div class="questionTagsL">
+							<div class="questionTagList">肺癌</div>
+							<div class="questionTagList">胃癌</div>
+							<div class="cl"></div>
 						</div>
-					</div>
-					<div class="swiper-slide">
-						<a href=""><img class="autoBanner" src="/Mobile/Public/Mobile/image/20180615banner2.jpg"></a>
-						<div class="bannerText">
-							<div class="bannerText1">5种食物竟然是防癌圣品</div>
-						</div>
-					</div>
-					<div class="swiper-slide">
-						<a href=""><img class="autoBanner" src="/Mobile/Public/Mobile/image/20180615banner3.jpg"></a>
-						<div class="bannerText">
-							<div class="bannerText1">5种食物竟然是防癌圣品</div>
-						</div>
+						<div class="questionTagsR">我要回答</div>
 					</div>
 				</div>
-			</div>
-		</div> 
-		<div class="doctorRecommend">
-			<div class="doctorRecommendOne">
-				<div class="doctorRecommendLine" style="width:auto;margin-left:2rem;color:#009FA8;font-size:5rem;">当季高发重疾</div>
-				<div class="doctorRecommendLine" style="float:right;color:#999;font-size:3.5rem;text-align:right;">更多<img style="position:relative;top:-0.3rem;margin-left:1rem;" src="/Mobile/Public/Mobile/image/20180615right.png"> &nbsp;&nbsp;</div>
-			</div> 
-			<div class="diseaseLink"> 
-				<div class="hotDisease">肺癌</div>
-				<div class="hotDisease">胃癌</div>
-				<div class="hotDisease">卵巢癌</div>
-				<div class="hotDisease">卵巢癌</div>
-				<div class="hotDisease">呼吸道感染</div>
-				<div class="hotDisease">小细胞肺癌</div>
-				<div class="hotDisease">肠癌</div>
-				<div class="hotDisease">呼吸道感染</div>
-				<div class="hotDisease">卵巢癌</div>
-				<div class="hotDisease">呼吸道感染</div>
-				<div class="hotDisease">小细胞肺癌</div>
-				<div class="hotDisease">肠癌</div>
-				<div class="hotDisease">小细胞肺癌</div>
-				<div class="hotDisease">肠癌</div>
 				<div class="cl"></div>
-			</div> 
+			</div>
 		</div> 
-		<div class="doctorRecommend">
-			<div class="doctorRecommendOne">
-				<div class="doctorRecommendLine" style="width:auto;margin-left:2rem;color:#009FA8;font-size:5rem;">更多疾病</div>
-				<div class="doctorRecommendLine" style="float:right;color:#999;font-size:3.5rem;text-align:right;">更多<img style="position:relative;top:-0.3rem;margin-left:1rem;" src="/Mobile/Public/Mobile/image/20180615right.png"> &nbsp;&nbsp;</div>
-						<div class="cl"></div>
-			</div> 
-			<div class="diseaseLink"> 
-				<div class="swiper-container disSwiperTwo">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide" data-history="slide1" data-n="1">头颈部</div>
-						<div class="swiper-slide" data-history="slide2" data-n="2">胸腹部</div>
-						<div class="swiper-slide" data-history="slide3" data-n="2">盆腔</div>
-						<div class="swiper-slide" data-history="slide3" data-n="2">皮肤</div>
-						<div class="swiper-slide" data-history="slide3" data-n="2">儿童肿瘤</div>
-						<div class="swiper-slide" data-history="slide3" data-n="2">其他</div>
-						<div class="cl"></div>
+		<div class="myAnswersInfo">
+			<div class="myanswersInfoTitle">
+				<div class="answerImgText"><img src="/Mobile/Public/Mobile/image/20180615changjianzhongji.png"></div>
+				<div class="answerImgText" style="margin-left:1rem;">我要回答</div>
+			</div>
+			<div class="myanswerTextDiv">
+				<textarea class="myanswerTextarea"></textarea>
+				<div class="myanswerSubmit"> 提交 </div>
+			</div>
+		</div>
+		<div class="answersInfo">
+			<div class="answersInfoTitle">
+				<div class="answerImgText"><img src="/Mobile/Public/Mobile/image/20180615changjianzhongji.png"></div>
+				<div class="answerImgText" style="margin-left:1rem;">其他答案</div>
+			</div>
+			<div class="answersInfoList">
+				<div class="answersInfoPerson">
+					<div class="answersInfoPersonL"><img src="/Mobile/Public/Mobile/image/20180424head5.png"></div>
+					<div class="answersInfoPersonR">
+						<div class="answersInfoPersonRU">谁手落子应无悔</div>
+						<div class="answersInfoPersonRD">2018-7-18 9:23</div>
 					</div>
 				</div>
+				<div class="answersInfoContent"><p>我会粗鲁地报告它。 <br><br>没有双手和外表的残疾人很普通，但公司方有历史<br><br>确认后，突然确认<a href="http://www.superdoctor.cn/diseaseList/37" target="_blank">癫痫</a>状态。我报道。 <br><br>我的<a href="http://www.superdoctor.cn/diseaseList/37" target="_blank">癫痫</a>发生水平是每月1到2次，如果是每年一次，则是几十次<br><br>它是。产生这么多人的人回答说不可能雇用。 <br><br>如果是这样，你可以在多大程度上招募？如果你问和回答<br><br>没有它。 <br><br></p></div>
 			</div>
-			<div class="diseaseLinkInfo">
-				<ul> 
-					<li>脑瘤</li>
-					<li>颊癌</li>
-					<li>鼻咽癌</li>
-					<li>垂体癌</li>
-					<li>口腔癌</li>
-					<li>脑膜瘤</li>
-					<li>眼部肿瘤</li>
-					<li>胶质瘤</li>
-					<li>舌癌</li>
-					<li>视网膜母细胞癌</li>
-					<li>牙龈癌</li>
-					<li>甲状腺癌</li>
-					<li>胶质瘤</li>
-					<li>喉癌</li>
-				</ul> 
-			</div> 
-			<div style="width:100%;height:30rem;"> 
-			</div> 
-		</div> 
+			<div class="answersInfoList">
+				<div class="answersInfoPerson">
+					<div class="answersInfoPersonL"><img src="/Mobile/Public/Mobile/image/20180424head5.png"></div>
+					<div class="answersInfoPersonR">
+						<div class="answersInfoPersonRU">谁手落子应无悔</div>
+						<div class="answersInfoPersonRD">2018-7-18 9:23</div>
+					</div>
+				</div>
+				<div class="answersInfoContent"><p>我会粗鲁地报告它。 <br><br>没有双手和外表的残疾人很普通，但公司方有历史<br><br>确认后，突然确认<a href="http://www.superdoctor.cn/diseaseList/37" target="_blank">癫痫</a>状态。我报道。 <br><br>我的<a href="http://www.superdoctor.cn/diseaseList/37" target="_blank">癫痫</a>发生水平是每月1到2次，如果是每年一次，则是几十次<br><br>它是。产生这么多人的人回答说不可能雇用。 <br><br>如果是这样，你可以在多大程度上招募？如果你问和回答<br><br>没有它。 <br><br></p></div>
+			</div>
+			<div class="answersInfoList">
+				<div class="answersInfoPerson">
+					<div class="answersInfoPersonL"><img src="/Mobile/Public/Mobile/image/20180424head5.png"></div>
+					<div class="answersInfoPersonR">
+						<div class="answersInfoPersonRU">谁手落子应无悔</div>
+						<div class="answersInfoPersonRD">2018-7-18 9:23</div>
+					</div>
+				</div>
+				<div class="answersInfoContent"><p>我会粗鲁地报告它。 <br><br>没有双手和外表的残疾人很普通，但公司方有历史<br><br>确认后，突然确认<a href="http://www.superdoctor.cn/diseaseList/37" target="_blank">癫痫</a>状态。我报道。 <br><br>我的<a href="http://www.superdoctor.cn/diseaseList/37" target="_blank">癫痫</a>发生水平是每月1到2次，如果是每年一次，则是几十次<br><br>它是。产生这么多人的人回答说不可能雇用。 <br><br>如果是这样，你可以在多大程度上招募？如果你问和回答<br><br>没有它。 <br><br></p></div>
+			</div>
+		</div>
 	</div>
 	<script>
-		//轮播图
-		var disSwiperOne = new Swiper('.disSwiperOne',{
-				autoplay: true,
-			});
-			
-		var disSwiperTwo = new Swiper('.disSwiperTwo',{
-				history: true,
-			});
-		//动态调整导航宽高
-		$('.disSwiperTwo .swiper-slide').css({'width':'auto','font-size':'4rem','padding':'2rem'});
-		$('.disSwiperTwo .swiper-slide').each(function(){
-			var n = $(this).data('n');
-			if(n==1){
-				$(this).css({'border-bottom':'0.2rem solid #009FA8'});
-			}
-		});
 		//动态改变导航栏信息
 		$('.oneNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180627reback.png">');
 		$('.oneNavDiv').data('n',2);
-		$('.twoNavDiv').html('疾病库');
+		$('.twoNavDiv').html('女生右腰部隐痛的原因');
+		//我要回答
+		$('.questionTagsR').click(function(){
+			$(this).css({'background':'#999'});
+			$('.myAnswersInfo').slideDown('fast');
+		});
+		//提交答案
+		$('.myanswerSubmit').click(function(){
+			var myAnswer = '';
+			myAnswer += '<div class="answersInfoList">';
+				myAnswer += '<div class="answersInfoPerson">';
+					myAnswer += '<div class="answersInfoPersonL"><img src="/Mobile/Public/Mobile/image/20180424head5.png"></div>';
+					myAnswer += '<div class="answersInfoPersonR">';
+						myAnswer += '<div class="answersInfoPersonRU">谁手落子应无悔222</div>';
+						myAnswer += '<div class="answersInfoPersonRD">2018-7-18 9:23</div>';
+					myAnswer += '</div>';
+				myAnswer += '</div>';
+				myAnswer += '<div class="answersInfoContent"><p>我会粗鲁地报告它。 <br><br>没有双手和外表的残疾人很普通，但公司方有历史<br><br>确认后，突然确认<a href="http://www.superdoctor.cn/diseaseList/37" target="_blank">癫痫</a>状态。我报道。 <br><br>我的<a href="http://www.superdoctor.cn/diseaseList/37" target="_blank">癫痫</a>发生水平是每月1到2次，如果是每年一次，则是几十次<br><br>它是。产生这么多人的人回答说不可能雇用。 <br><br>如果是这样，你可以在多大程度上招募？如果你问和回答<br><br>没有它。 <br><br></p></div>';
+			myAnswer += '</div>';
+			$('.answersInfoTitle').after(myAnswer);
+			$('.myAnswersInfo').slideUp('fast');
+			$('.questionTagsR').css({'background':'#009FA8'});
+		});
 	</script> 
 	<div class="mobilePublicFot">
 		<div class="fotDiv fotDivBorder fotDivBorderNav" data-n="1">
@@ -476,7 +553,7 @@
 		<div class="mobilePublicFotNavTwo">
 			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/index"><div class="fotNavList">首页</div></a>
 			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/questionIndex"><div class="fotNavList">互动问答</div></a>
-			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/newMessages"><div class="fotNavList">前沿资讯</div></a>
+			<div class="fotNavList">前沿资讯</div>
 			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/diseaseIndex"><div class="fotNavList">疾病知识</div></a>
 			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/hospitalIndex"><div class="fotNavList">权威医院</div></a>
 			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/expertIndex"><div class="fotNavList">超级专家</div></a>

@@ -5,10 +5,9 @@
 	<title>超级医生</title>
 	<link rel="stylesheet" href="/Mobile/Public/Mobile/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/Mobile/Public/Mobile/css/font-awesome.css">
-	<script src="/Mobile/Public/Mobile/js/zepto.min.js"></script>
-	<script src="/Mobile/Public/Mobile/js/zepto.min.js"></script>
 	<link rel="stylesheet" href="/Mobile/Public/Mobile/css/swiper-4.3.3.min.css">
 	<script src="/Mobile/Public/Mobile/js/swiper-4.3.3.min.js"></script>
+	<script src="/Mobile/Public/Mobile/js/jquery-3.3.1.min.js"></script>
 	<style>
 		/*共公头部结束*/
 		html{
@@ -55,6 +54,9 @@
 			width:50%;
 			text-align:center;
 			color:white;
+			overflow: hidden;
+			text-overflow:ellipsis;
+			white-space: nowrap;
 		}
 		.threeNavDiv{
 			text-align:right;
@@ -124,6 +126,81 @@
 		a{
 			text-decoration:none;
 		}
+		.fl{
+			float:left;
+		}
+		
+		/*********公共登录********/
+		.loginPublicModel{
+			width:100%;
+			height:100%;
+			position:absolute;
+			top:0rem;
+			left:0rem;
+			background:rgba(0,0,0,0.7);
+			z-index:1000;
+			position:fixed;
+			display:none;
+		}
+		.loginPublicModelOne{
+			width:84%;
+			height:70rem;
+			background:#fff;
+			border-radius:2rem;
+		}
+		.loginTitle{
+			width:100%;
+			height:12rem;
+			line-height:12rem;
+			text-align:center;
+			font-size:5rem;
+			color:#009FA8;
+			border-bottom:0.1rem solid #999;
+		}
+		.publicLoginDiv{
+			width:100%;
+			position:relative;
+			margin-top:5rem;
+		}
+		.publicLoginInput{
+			width:80%;
+			height:10rem;
+			line-height:10rem;
+			font-size:3.5rem;
+			color:#666;
+			border:0.1rem solid #999;
+			border-radius:10rem;
+			margin-left:10%;
+			padding:0 0 0 2rem;
+		}
+		.publicLoginQrcode{
+			position:absolute;
+			width:auto;
+			padding:0 1.5rem 0 1.5rem;
+			font-size:3.5rem;
+			background:#009FA8;
+			color:#fff;
+			height:6rem;
+			line-height:6rem;
+			text-align:center;
+			border-radius:10rem;
+			right:12%;
+			top:2rem;
+		}
+		.publicLoginSubmit{
+			width:80%;
+			height:10rem;
+			line-height:10rem;
+			font-size:5rem;
+			color:#666;
+			border-radius:10rem;
+			margin-left:10%;
+			margin-top:8rem;
+			background:#009FA8;
+			text-align:center;
+			color:#fff;
+		}
+		/*********公共登录********/
 	</style>
 </head>
 	<div class="mobilePublicNav">
@@ -131,6 +208,14 @@
 		<div class="navDiv twoNavDiv">400-052-0680</div>
 		<div class="navDiv threeNavDiv"><img src="/Mobile/Public/Mobile/image/20180614search.png" style="margin-right:2rem;"></div>
 		<div class="cl"></div>
+	</div>
+	<div class="loginPublicModel">
+		<div class="loginPublicModelOne">
+			<div class="loginTitle">快速登录</div>
+			<div class="publicLoginDiv"><input type="text" name="name" value="" class="publicLoginInput" id="loginName" placeholder="请输入手机号"/></div>
+			<div class="publicLoginDiv"><input type="text" name="name" value="" class="publicLoginInput" id="loginPass" placeholder="请输入验证码"/><div class="publicLoginQrcode">获取验证码</div></div>
+			<div class="publicLoginSubmit">快速登录</div>
+		</div>
 	</div>
 <script src="/Mobile/Public/Mobile/js/zepto.min.js"></script>
 <script src="/Mobile/Public/Mobile/js/swiper-4.3.3.min.js"></script>
@@ -245,7 +330,7 @@
 			width:18rem;
 			height:18rem;
 			border-radius:50%;
-			margin-left:24.5%;
+			margin-left:21.5%;
 			margin-top:3rem;
 		}
 		.doctorRecommendName{
@@ -454,7 +539,7 @@
 		<div class="doctorRecommend">
 			<div class="doctorRecommendOne">
 				<div class="doctorRecommendLine" style="margin-left:2rem;color:#009FA8;font-size:5rem;">医生推荐</div>
-				<div class="doctorRecommendLine" style="float:right;color:#999;font-size:3.5rem;text-align:right;">更多<img style="position:relative;top:0.3rem;margin-left:1rem;" src="/Mobile/Public/Mobile/image/20180615right.png"> &nbsp;&nbsp;</div>
+				<div class="doctorRecommendLine" style="float:right;color:#999;font-size:3.5rem;text-align:right;">更多<img style="position:relative;top:-0.3rem;margin-left:1rem;" src="/Mobile/Public/Mobile/image/20180615right.png"> &nbsp;&nbsp;</div>
 			</div>
 			<div class="doctorRecommendTwo">
 				<div class="doctorRecommendList">
@@ -477,7 +562,7 @@
 		<div class="doctorRecommend">
 			<div class="doctorRecommendOne">
 				<div class="doctorRecommendLine" style="margin-left:2rem;color:#009FA8;font-size:5rem;">医院推荐</div>
-				<div class="doctorRecommendLine" style="float:right;color:#999;font-size:3.5rem;text-align:right;">更多<img style="position:relative;top:0.3rem;margin-left:1rem;" src="/Mobile/Public/Mobile/image/20180615right.png"> &nbsp;&nbsp;</div>
+				<div class="doctorRecommendLine" style="float:right;color:#999;font-size:3.5rem;text-align:right;">更多<img style="position:relative;top:-0.3rem;margin-left:1rem;" src="/Mobile/Public/Mobile/image/20180615right.png"> &nbsp;&nbsp;</div>
 			</div>
 			<div class="hospitalRecommendTwo">
 				<div class="hospitalRecommendList">
@@ -495,7 +580,7 @@
 		<div class="doctorRecommend">
 			<div class="doctorRecommendOne">
 				<div class="doctorRecommendLine" style="margin-left:2rem;color:#009FA8;font-size:5rem;">推荐问答</div>
-				<div class="doctorRecommendLine" style="float:right;color:#999;font-size:3.5rem;text-align:right;">更多<img style="position:relative;top:0.3rem;margin-left:1rem;" src="/Mobile/Public/Mobile/image/20180615right.png"> &nbsp;&nbsp;</div>
+				<div class="doctorRecommendLine" style="float:right;color:#999;font-size:3.5rem;text-align:right;">更多<img style="position:relative;top:-0.3rem;margin-left:1rem;" src="/Mobile/Public/Mobile/image/20180615right.png"> &nbsp;&nbsp;</div>
 			</div>
 			<div class="hospitalRecommendTwo" style="height:42rem;">
 				<div class="QuestionRecommendList">
@@ -523,7 +608,7 @@
 		<div class="doctorRecommend">
 			<div class="doctorRecommendOne">
 				<div class="doctorRecommendLine" style="margin-left:2rem;color:#009FA8;font-size:5rem;">前沿资讯</div>
-				<div class="doctorRecommendLine" style="float:right;color:#999;font-size:3.5rem;text-align:right;">更多<img style="position:relative;top:0.3rem;margin-left:1rem;" src="/Mobile/Public/Mobile/image/20180615right.png"> &nbsp;&nbsp;</div>
+				<div class="doctorRecommendLine" style="float:right;color:#999;font-size:3.5rem;text-align:right;">更多<img style="position:relative;top:-0.3rem;margin-left:1rem;" src="/Mobile/Public/Mobile/image/20180615right.png"> &nbsp;&nbsp;</div>
 			</div>  
 			<div class="hospitalRecommendTwo" style="height:115rem;"> 
 				<div style="width:100%;height:2rem;"></div>
@@ -600,12 +685,12 @@
 	</div>
 	<div class="mobilePublicFotNav">
 		<div class="mobilePublicFotNavTwo">
-			<div class="fotNavList">首页</div>
-			<div class="fotNavList">互动问答</div>
-			<div class="fotNavList">前沿资讯</div>
-			<div class="fotNavList">疾病知识</div>
-			<div class="fotNavList">权威医院</div>
-			<div class="fotNavList">超级专家</div>
+			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/index"><div class="fotNavList">首页</div></a>
+			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/questionIndex"><div class="fotNavList">互动问答</div></a>
+			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/newMessages"><div class="fotNavList">前沿资讯</div></a>
+			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/diseaseIndex"><div class="fotNavList">疾病知识</div></a>
+			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/hospitalIndex"><div class="fotNavList">权威医院</div></a>
+			<a href="http://192.168.1.21/Mobile/index.php/Mobile/Index/expertIndex"><div class="fotNavList">超级专家</div></a>
 		</div>
 	</div>
 	<script>
@@ -615,17 +700,17 @@
 		$('.fotDivBorderNav').click(function(){
 			var n = $(this).data('n');
 			if(n==1){
-				$('.mobilePublicFotNav').show('fast');
+				$('.mobilePublicFotNav').slideDown('fast');
 				$(this).css({'backgroundColor':'#008c95'});
 				$(this).data('n',2);
 			}else if(n==2){
 				$(this).css({'backgroundColor':'#009FA8'});
-				$('.mobilePublicFotNav').hide('fast');
+				$('.mobilePublicFotNav').slideUp('fast');
 				$(this).data('n',1);
 			}
 		});
 		$('.mobilePublicFotNav').on("click",function(){
-			$('.mobilePublicFotNav').hide('fast');
+			$('.mobilePublicFotNav').slideUp('fast');
 			$('.fotDivBorderNav').css({'backgroundColor':'#009FA8'});
 			$('.fotDivBorderNav').data('n',1);
 		});
@@ -666,6 +751,20 @@
 				$('.threeNavDiv').html('<img src="/Mobile/Public/Mobile/image/20180614search.png" style="margin-right:2rem;">');
 				
 			}
+		});
+		//公共登录框
+		$(function(){
+			var loginTop = ($(window).height()/12-70)/2;
+			$('.loginPublicModelOne').css({'margin-top':loginTop+'rem','margin-left':'8%'});
+			$('.loginPublicModelOne').on('click',function(e){
+				e.stopPropagation();
+			});
+			$('.fotNavList').on('click',function(e){
+				e.stopPropagation();
+			});
+			$('.loginPublicModel').on('click',function(){
+				$('.loginPublicModel').css({'display':'none'});
+			});
 		});
 	</script>
 </html>

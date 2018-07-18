@@ -7,7 +7,6 @@
  */
 
 (function($, document) {
-
 	//创建 DOM
 	$.dom = function(str) {
 		if (typeof(str) !== 'string') {
@@ -42,7 +41,7 @@
 			<div class="mui-pciker-rule mui-pciker-rule-bg"></div>\
 		</div>\
 	</div>';
-
+	
 	//定义弹出选择器类
 	var PopPicker = $.PopPicker = $.Class.extend({
 		//构造函数
@@ -64,6 +63,7 @@
 			self.ok.addEventListener('tap', function(event) {
 				if (self.callback) {
 					var rs = self.callback(self.getSelectedItems());
+					
 					if (rs !== false) {
 						self.hide();
 					}
@@ -113,6 +113,7 @@
 			var self = this;
 			var items = [];
 			for (var i in self.pickers) {
+				
 				var picker = self.pickers[i];
 				items.push(picker.getSelectedItem() || {});
 			}
